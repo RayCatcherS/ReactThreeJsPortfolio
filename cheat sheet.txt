@@ -1,2 +1,3 @@
+npm ci: installa dipendenze npm usate nel progetto sulla macchina 
 start app: npm run dev
 framework css: https://tailwindcss.com/

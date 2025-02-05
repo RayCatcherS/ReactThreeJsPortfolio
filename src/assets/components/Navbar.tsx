@@ -10,11 +10,11 @@ const Navbar = () => {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-violet-500 w-10 h-10 rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md"
-                  : "text-black w-10 h-10 rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md"
+                  ? "text-violet-500 h-10 rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md"
+                  : "text-black h-10 rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md"
               }
             >
-              <p className="blue-gradient-text">SR</p>
+              <p className="blue-gradient-text">Home</p>
             </NavLink>
           </li>
           <div className="flex space-x-5">
