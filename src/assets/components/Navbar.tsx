@@ -1,62 +1,80 @@
-import { NavLink } from "react-router-dom";
+import { Link } from 'react-scroll';
 
-const Navbar = () => {
+/* 
+  L'interfaccia NavbarProps definisce il tipo delle proprietà (props) 
+  che il componente Navbar si aspetta di ricevere. In questo caso,
+  l'interfaccia NavbarProps specifica che il componente Navbar riceverà una proprietà
+  chiamata activeSection di tipo string.
+*/
+interface NavbarProps {
+  activeSection: string;
+}
+
+const Navbar = ({ activeSection }: NavbarProps) => {
   return (
-    <header className="header">
-      <nav className="flex text-lg gap-7 font-medium">
+    <header className="header fixed top-0 left-0 w-full z-50 ">
+      <nav className="flex text-lg gap-7 font-medium p-10">
         <ul className="flex items-center w-full justify-between">
           <li>
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                isActive
-                  ? "text-violet-500 h-10 rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md"
-                  : "text-black h-10 rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md"
-              }
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              className={`cursor-pointer text-black rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md `}
             >
-              <p className="blue-gradient-text">Home</p>
-            </NavLink>
+              <p className={`p-3 ${
+                activeSection === 'home' ? 'violet-gradient-text' : 'text-black'
+              }`}>Home</p>
+            </Link>
           </li>
           <div className="flex space-x-5">
             <li>
-              <NavLink
-                to="/gameDevProjects"
-                className={({ isActive }) =>
-                  isActive ? "text-violet-500" : "text-black"
-                }
+              <Link
+                to="gameDevProjects"
+                smooth={true}
+                duration={500}
+                className={`cursor-pointer`}
               >
-                GameDev Projects
-              </NavLink>
+                <p className={`p-3 ${
+                activeSection === 'gameDevProjects' ? 'violet-gradient-text' : 'text-black'
+              }`}>GameDev Projects</p>
+              </Link>
             </li>
             <li>
-              <NavLink
-                to="/softwareDev"
-                className={({ isActive }) =>
-                  isActive ? "text-violet-500" : "text-black"
-                }
+              <Link
+                to="developedSoftwares"
+                smooth={true}
+                duration={500}
+                className={`cursor-pointer`}
               >
-                Developed Software
-              </NavLink>
+                <p className={`p-3 ${
+                  activeSection === 'developedSoftwares' ? 'violet-gradient-text' : 'text-black'
+                }`}>Developed Software</p>
+              </Link>
             </li>
             <li>
-              <NavLink
-                to="/universityProjects"
-                className={({ isActive }) =>
-                  isActive ? "text-violet-500" : "text-black"
-                }
+              <Link
+                to="universityProjects"
+                smooth={true}
+                duration={500}
+                className={`cursor-pointer`}
               >
-                University Projects
-              </NavLink>
+                <p className={`p-3  ${
+                  activeSection === 'universityProjects' ? 'violet-gradient-text' : 'text-black'
+                }`}>University Projects</p>
+              </Link>
             </li>
             <li>
-              <NavLink
-                to="/about"
-                className={({ isActive }) =>
-                  isActive ? "text-violet-500" : "text-black"
-                }
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                className={`cursor-pointer`}
               >
-                About
-              </NavLink>
+                <p className={`p-3  ${
+                  activeSection === 'about' ? 'violet-gradient-text' : 'text-black'
+                }`}>About</p>
+              </Link>
             </li>
           </div>
         </ul>
