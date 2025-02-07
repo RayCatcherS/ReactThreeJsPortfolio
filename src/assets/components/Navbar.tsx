@@ -20,7 +20,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
               to="home"
               smooth={true}
               duration={500}
-              className={`cursor-pointer text-black rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md `}
+              className={`cursor-pointer rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md `}
             >
               <p className={`p-3 ${
                 activeSection === 'home' ? 'violet-gradient-text' : 'text-black'
@@ -36,7 +36,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
                 className={`cursor-pointer`}
               >
                 <p className={`p-3 ${
-                activeSection === 'gameDevProjects' ? 'violet-gradient-text' : 'text-black'
+                activeSection === 'gameDevProjects' ? 'violet-gradient-text' : 'text-white'
               }`}>GameDev Projects</p>
               </Link>
             </li>
@@ -48,7 +48,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
                 className={`cursor-pointer`}
               >
                 <p className={`p-3 ${
-                  activeSection === 'developedSoftwares' ? 'violet-gradient-text' : 'text-black'
+                  activeSection === 'developedSoftwares' ? 'violet-gradient-text' : 'text-white'
                 }`}>Developed Software</p>
               </Link>
             </li>
@@ -60,7 +60,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
                 className={`cursor-pointer`}
               >
                 <p className={`p-3  ${
-                  activeSection === 'universityProjects' ? 'violet-gradient-text' : 'text-black'
+                  activeSection === 'universityProjects' ? 'violet-gradient-text' : 'text-white'
                 }`}>University Projects</p>
               </Link>
             </li>
@@ -72,7 +72,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
                 className={`cursor-pointer`}
               >
                 <p className={`p-3  ${
-                  activeSection === 'about' ? 'violet-gradient-text' : 'text-black'
+                  activeSection === 'about' ? 'violet-gradient-text' : 'text-white'
                 }`}>About</p>
               </Link>
             </li>
