@@ -33,6 +33,7 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
       
 
       <div className={`relative text-left flex flex-col items-center
+        p-10
         sm:p-10
         md:p-10
         lg:p-20
@@ -46,12 +47,15 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
         </h3>
         <p className='text-white mt-10 text-home-cover-description font-melodi-mono-medium'>{homeCover.coverDescription1}</p>
         <p className='text-white mt-10 text-home-cover-description font-melodi-mono-medium'>{homeCover.coverDescription2}</p>
-        <a href={homeCover.personalEmail} className='text-blue-400 mt-4 block'>
-          Email
-        </a>
-        <a href={homeCover.linkedinURL} className='text-blue-400 mt-2 block'>
-          LinkedIn
-        </a>
+        <div className='flex mt-20'>
+          <a href={homeCover.personalEmail} className='text-blue-400 block'>
+            Email
+          </a>
+          <a className='ml-10'> </a>
+          <a href={homeCover.linkedinURL} className='text-blue-400 block'>
+            LinkedIn
+          </a>
+        </div>
       </div>
     </div>
   );
