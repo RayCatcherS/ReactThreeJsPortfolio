@@ -1,4 +1,6 @@
 import React from 'react';
+import { MdOutlineMail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
 
 interface HomeSectionProps {
   portfolioOwner: string;
@@ -20,7 +22,9 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
     // h-screen altezza dello schermo
 
     <div
-      className='bg-violet-950 h-screen sm:h-screen md:h-250 lg:h-195 flex items-center justify-center'
+      className={`bg-violet-950 
+        h-screen sm:h-screen md:h-182 lg:h-182
+        flex items-center justify-center`}
       style={{
         backgroundImage: `url(${homeCover.coverImageUrl})`,
         backgroundSize: 'cover',
@@ -29,15 +33,15 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
     >
       {/* opacità viola */}
       <div className={`absolute inset-0 bg-violet-950 opacity-65 
-        h-screen sm:h-screen md:h-250 lg:h-195`}></div>
+        h-screen sm:h-screen md:h-182 lg:h-182`}></div>
       
 
       <div className={`relative text-left flex flex-col items-center
         p-10
         sm:p-10
         md:p-10
-        lg:p-20
-        w-260`}>
+        lg:p-10
+        w-220`}>
         
         <h1 className='text-white text-owner font-melodi-semi-bold-title uppercase'>
           {portfolioOwner}
@@ -45,15 +49,15 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
         <h3 className='text-white text-owner-role font-melodi-semi-bold-title uppercase'>
           {role}
         </h3>
-        <p className='text-white mt-10 text-home-cover-description font-melodi-mono-medium'>{homeCover.coverDescription1}</p>
-        <p className='text-white mt-10 text-home-cover-description font-melodi-mono-medium'>{homeCover.coverDescription2}</p>
+        <p className='text-white mt-12 text-home-cover-description font-melodi-mono-medium'>{homeCover.coverDescription1}</p>
+        <p className='text-white mt-12 text-home-cover-description font-melodi-mono-medium'>{homeCover.coverDescription2}</p>
         <div className='flex mt-20'>
           <a href={homeCover.personalEmail} className='text-blue-400 block'>
-            Email
+            <MdOutlineMail  size={30} color='white'/>
           </a>
           <a className='ml-10'> </a>
           <a href={homeCover.linkedinURL} className='text-blue-400 block'>
-            LinkedIn
+            <FaLinkedin size={27} color='white'/>
           </a>
         </div>
       </div>

@@ -1,11 +1,18 @@
 import React from 'react'
 
-const About = () => {
+interface AboutMeProps {
+    pictureProfile: string;
+    title: string;
+    aboutMeDescription: string;
+}
+
+const AboutSection: React.FC<AboutMeProps> = ({ pictureProfile, title, aboutMeDescription }) => {
   return (
-    <div className='bg-blue-500 h-300'>
-      About
+    <div>
+        {pictureProfile}
+        AboutSection
     </div>
   )
 }
 
-export default About
+export default AboutSection

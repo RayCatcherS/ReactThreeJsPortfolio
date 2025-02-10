@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --font-base: 1.125rem; /* default font size */
+  --font-base: 0.8rem; /* default font size */
 }
 
 .text-owner {
-  font-size: 3.8rem; /* 42px, leggermente più grande di 4xl (36px) */
+  font-size: 3.54rem; /* 42px, leggermente più grande di 4xl (36px) */
   line-height: 1;
 }
 .text-owner-role {
-  font-size: 1.94rem; /* 42px, leggermente più grande di 4xl (36px) */
+  font-size: 1.82rem; /* 42px, leggermente più grande di 4xl (36px) */
   line-height: 1;
 }
 
 .text-home-cover-description {
-  font-size: 1.311rem; /* 42px, leggermente più grande di 4xl (36px) */
+  font-size: 1.22rem; /* 42px, leggermente più grande di 4xl (36px) */
   line-height: 1;
 }
 
