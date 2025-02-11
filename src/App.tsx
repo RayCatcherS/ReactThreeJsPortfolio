@@ -37,7 +37,10 @@ function App() {
           <UniversityProjects />
         </section>
         <section id="about">
-          <About />
+          <About aboutMeDescription={mediaAssetsData.assetsData.aboutMe.aboutMeDescription}
+            title={mediaAssetsData.assetsData.aboutMe.title}
+            pictureProfile={mediaAssetsData.assetsData.aboutMe.pictureProfile}
+          />
         </section>
       </div>
     </main>
