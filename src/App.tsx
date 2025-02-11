@@ -5,9 +5,11 @@ import GameDevProjects from './assets/pages/GameDevProjects';
 import DevelopedSoftwares from './assets/pages/DevelopedSoftwares';
 import UniversityProjects from './assets/pages/UniversityProjects';
 import About from './assets/pages/About';
+import ContactMe from './assets/pages/Section/ContactMe';
 import useIntersectionObserver from './assets/hooks/useIntersectionObserver';
 
 import mediaAssetsData from './assets/remoteAssets/mediaAssetsData.json';
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('');
@@ -40,6 +42,14 @@ function App() {
           <About aboutMeDescription={mediaAssetsData.assetsData.aboutMe.aboutMeDescription}
             title={mediaAssetsData.assetsData.aboutMe.title}
             pictureProfile={mediaAssetsData.assetsData.aboutMe.pictureProfile}
+          />
+        </section>
+        <section id="about">
+          <ContactMe contactMeTitle={mediaAssetsData.assetsData.contactMe.contactMeTitle}
+            contactMeDescription={mediaAssetsData.assetsData.contactMe.contactMeDescription}
+            contactMeCoverImage={mediaAssetsData.assetsData.contactMe.contactMeCoverImage}
+            linkedinURL={mediaAssetsData.assetsData.homeCover.linkedinURL}
+            personalEmail={mediaAssetsData.assetsData.homeCover.personalEmail}
           />
         </section>
       </div>

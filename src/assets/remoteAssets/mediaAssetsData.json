@@ -12,11 +12,12 @@
         "aboutMe" : {
             "pictureProfile" : "https://stefanoromanelli.it/remoteAssets/pictureProfile.jpg",
             "title" : "About Me",
-            "aboutMeDescription" : "Il mio nome è Stefano, ho 27 anni e sono uno studente laureando in informatica. Sono appassionato di sviluppo software, informatica, tecnologia e sviluppo di giochi. Sviluppare progetti software è la mia forma preferita di espressione della creatività."
+            "aboutMeDescription" : "Il mio nome è Stefano, ho 28 anni e sono laureato in informatica. Sono appassionato di sviluppo software, informatica, tecnologia e sviluppo di giochi. Sviluppare progetti software è la mia forma preferita di espressione della creatività."
         },
         "contactMe" : {
             "contactMeTitle" : "Contact Me",
-            "contactMeDescription" : "Puoi contattarmi via e-mail o tramite LinkedIn."
+            "contactMeDescription" : "Puoi contattarmi via e-mail o tramite LinkedIn.",
+            "contactMeCoverImage" : "https://stefanoromanelli.it/remoteAssets/contactMeCover.png"
         },
         "projectGroups" : [
             {

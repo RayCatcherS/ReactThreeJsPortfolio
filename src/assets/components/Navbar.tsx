@@ -73,7 +73,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
               >
                 <p className={`p-3  ${
                   activeSection === 'about' ? 'violet-gradient-text' : 'text-white'
-                }`}>About</p>
+                }`}>About/Contact Me</p>
               </Link>
             </li>
           </div>
