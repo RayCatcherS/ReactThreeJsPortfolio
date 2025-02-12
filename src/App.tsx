@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import Navbar from './assets/components/Navbar';
-import HomeSection from './assets/pages/Section/HomeSection';
+import HomeSection from './assets/pages/Sections/HomeSection';
 import GameDevProjects from './assets/pages/GameDevProjects';
 import DevelopedSoftwares from './assets/pages/DevelopedSoftwares';
 import UniversityProjects from './assets/pages/UniversityProjects';
-import About from './assets/pages/About';
-import ContactMe from './assets/pages/Section/ContactMe';
+import About from './assets/pages/Sections/AboutSection';
+import ContactMe from './assets/pages/Sections/ContactMe';
 import useIntersectionObserver from './assets/hooks/useIntersectionObserver';
 
 import mediaAssetsData from './assets/remoteAssets/mediaAssetsData.json';

@@ -23,7 +23,11 @@ const ContactMe: React.FC<ContactMeProps> = ({ contactMeTitle, contactMeDescript
       }}
       >
           {/* opacità viola */}
-          <div className='absolute inset-0 bg-violet-950 opacity-65'></div>
+          <div className='absolute inset-0 bg-violet-950 opacity-60'></div>
+          {/* <div className='absolute inset-0'
+          style={{
+            background: 'linear-gradient(to bottom, rgba(29, 29, 29, 1), rgba(138, 43, 226, 0.4)',
+          }}></div> */}
           <div className='relative'>
               <h1 className='text-white font-melodi-regular-title text-owner'>{contactMeTitle}</h1>
               <p className='text-white mt-5 font-melodi-light-description text-description'>{contactMeDescription}</p>
