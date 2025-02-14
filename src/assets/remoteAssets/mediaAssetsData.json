@@ -6,7 +6,7 @@
             "coverImageUrl" : "https://stefanoromanelli.it/remoteAssets/Immagine9.jpg",
             "personalEmail" : "mailto:romanelli1996@gmail.com",
             "linkedinURL" : "https://www.linkedin.com/in/stefano-romanelli-bb80a6108",
-            "coverDescription1" : "Hello! Il mio nome è Stefano e sono uno studente laureando in informatica. Attualmente sviluppo videogames su richiesta e nel tempo libero.",
+            "coverDescription1" : "Hello! Il mio nome è Stefano e sono laureato in informatica. Sviluppo videogames e Serious Game su richiesta e nel tempo libero.",
             "coverDescription2" : "In questo portfolio puoi trovare i miei progetti professionali e personali a cui ho lavorato."
         },
         "aboutMe" : {
@@ -81,7 +81,7 @@
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/MatrixFactory/matrixGameplay.mp4",
                         "imagePlayableReferenceUrl" : "",
                         "title" : "Matrix Factory",
-                        "description" : "Matrix Factory è un gioco-esperimento sviluppato nel tempo libero in ciurca 4 mesi. Nel gioco si devono costruire i giusti path per portare in consegna la quantità sufficiente di pacchi per far partire l'ordine, elimando con línceneritore i pacchi bomba. In questo progetto ho sperimentato la generazione di livelli tramite un algoritmo. I livelli generati vengono poi valutati da un algoritmo che ne calcola uno scoring della difficoltà rispetto topologia del livello. I livelli vengono poi presentati al giocatore in ordine di difficoltà(ranking). Tutti gli assets, modelli 3D, UI e livelli di gioco sono stati realizzati da me.",
+                        "description" : "Matrix Factory è un puzzle game sperimentale sviluppato in 4 mesi. Nel gioco si devono configurare i percorsi adeguati per consegnare la quantità sufficiente di pacchi per superare il livello. I pacchi bomba dovranno essere scartati con l'inceneritore affinchè non danneggino altri pacchi. In questo progetto ho sperimentato la generazione di livelli tramite un algoritmo di ricerca esaustiva. I livelli generati vengono poi valutati da un algoritmo che valuta uno scoring che ne rappresenta la difficoltà rispetto alle caratteristiche del livello generato. I livelli vengono presentati al giocatore in ordine di difficoltà crescente. Tutti gli assets, modelli 3D, effetti, illuminazione e UI sono stati realizzati da me.",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/MatrixFactory/matrixFactoryAsset.png",
                         "company" : {
                             "companyName" : "Personal Project",
