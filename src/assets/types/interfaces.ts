@@ -68,3 +68,7 @@ export enum BackgroundType {
   Image = "image",
   Video = "video"
 }
+
+export interface NavbarProps {
+  activeSection: string;
+}

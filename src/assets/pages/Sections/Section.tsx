@@ -1,5 +1,5 @@
 import React from 'react'
-import SubSection from './SubSection';
+import SubSection from './SubSection/SubSection.tsx';
 import { ProjectGroup } from '../../types/interfaces.ts';
 
 
@@ -13,7 +13,7 @@ const Section: React.FC<ProjectGroup> = ({ projectGroupName, projectGroupDescrip
     <div>
       
       <div 
-        className='pt-24 pb-20
+        className='pt-34 pb-20
         md:pl-30 md:pr-30 
         sm:pl-10 sm:pr-10
         pl-10 pr-10'
@@ -27,12 +27,10 @@ const Section: React.FC<ProjectGroup> = ({ projectGroupName, projectGroupDescrip
       <ul>
         {projectItemsData.map((projectItem, index) => (
           <li key={index} id={`projectItem-${index}`}>
-            <section id={projectItem.title}>
-              <SubSection 
+            <SubSection 
                 projectItem={projectItem}>
                 
               </SubSection>
-            </section>
             
           </li>
         

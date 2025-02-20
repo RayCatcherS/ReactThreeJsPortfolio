@@ -1,9 +1,9 @@
 import React from 'react'
-import { ProjectItem } from '../../../types/interfaces'
+import { ProjectItem } from '../../../../types/interfaces'
 
 const YoutubeMediaItem: React.FC<{ projectItem: ProjectItem }> = ({ projectItem }) => {
   return (
-    <iframe className="absolute top-0 left-0 w-full h-full"
+    <iframe className=" w-full h-full" style={{borderRadius: '9px'}}
         src= {projectItem.mediaItemSource} 
         title="YouTube video player"
         frameBorder="0" 

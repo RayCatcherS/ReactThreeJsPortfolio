@@ -4,10 +4,12 @@ import { useEffect } from 'react';
 const useIntersectionObserver = (setActiveSection: (section: string) => void) => {
   useEffect(() => {
     const sections = document.querySelectorAll('section');
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            console.log(`Sezione visibile: ${entry.target.id}`); // DEBUG
             setActiveSection(entry.target.id);
           }
         });
@@ -15,15 +17,9 @@ const useIntersectionObserver = (setActiveSection: (section: string) => void) =>
       { threshold: 0.6 }
     );
 
-    sections.forEach((section) => {
-      observer.observe(section);
-    });
+    sections.forEach((section) => observer.observe(section));
 
-    return () => {
-      sections.forEach((section) => {
-        observer.unobserve(section);
-      });
-    };
+    return () => sections.forEach((section) => observer.unobserve(section));
   }, [setActiveSection]);
 };
 

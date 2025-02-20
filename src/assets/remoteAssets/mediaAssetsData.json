@@ -54,9 +54,9 @@
                 "projectGroupDescription" : "A sample of the personal game projects that I've worked",
                 "projectItemsData" : [
                     {
-                        "itemType" : "ItemType.UrlVideo",
+                        "itemType" : "ItemType.YoutubeUrl",
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/control.mp4",
-                        "mediaItemSource" : "",
+                        "mediaItemSource" : "https://www.youtube.com/embed/SiCod34roFQ?si=cKFMEhRd90QVT_uC",
                         "title" : "Vergeltung",
                         "description" : "Vergeltung è un gioco di genere Stealth con elementi Top-Down Shooting ambientato in universo distopico in cui le forze naziste hanno vinto la guerra usando delle tecnologie antiche. I nazisti hanno addestrato forze armate specializzate incaricate nel cercare e sterminare i detentori di queste tecnologie, dominandone il possesso. Il protagonista dovrà fuggire se verrà scoperto e salvare la pelle in ogni modo possible(fuggendo al buio oppure confondendo i nemici). Il giocatore dovrà riuscire ad riappropriarsi degli equipagiamenti nemici, piegando l'ambiente circostante contro loro stessi, mentre eserciti di nemici marciano per le strade, bisognerà infiltrarsi tra i vari edifici senza farsi scoprire, cercando di raggiungere le zone strategiche particolarmente militarizzate. Le zone strategiche sorvegliano l'accesso a dei monoliti realizzati con le antiche tecnologie dei detentori. Ottenere energia dai monoliti consentirà al protagonista di usarne il potere e di prendere fisicamente il controllo degli altri esseri umani. Il protagonista userà questa tecnologia per controllare civili e soldati(anche in modo amorale) per costruire ed improvvisare la propria vendetta, sabotando ed utilizzando armi e dispositivi della fazione nemica. Il giocatore controllando gli altri umani, potrà creare una catena di controllo, permettendogli di sfruttare il ruolo dei character controllati per raggiungere zone inaccessibili o per usarli come vite sacrificabili. Tutti gli assets, modelli 3D, UI e livelli di gioco sono stati realizzati da me.",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/VergeltungAsset.png",
