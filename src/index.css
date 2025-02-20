@@ -4,11 +4,15 @@
   --font-base: 0.8rem; /* default font size */
 }
 
-.text-owner {
+.text-title {
   font-size: 3.54rem; /* 42px, leggermente più grande di 4xl (36px) */
+  line-height: 1.025;
+}
+.text-sub-title {
+  font-size: 1.7rem; /* 42px, leggermente più grande di 4xl (36px) */
   line-height: 1;
 }
-.text-owner-role {
+.text-home-description {
   font-size: 1.82rem; /* 42px, leggermente più grande di 4xl (36px) */
   line-height: 1;
 }
@@ -60,6 +64,13 @@ html {
   src: url('./assets/fonts/BLMelody-Light.otf') format('truetype');
 }
 
+@font-face {
+  font-family: 'melodiExtraLight';
+  font-style: light;
+  font-weight: 200;
+  src: url('./assets/fonts/BLMelody-ExtraLight.otf') format('truetype');
+}
+
 /* Definisci una classe per utilizzare il font personalizzato */
 .font-melodi-semi-bold-title {
   font-family: 'MelodiSemiBoldTitle', sans-serif;
@@ -73,6 +84,10 @@ html {
   font-family: 'melodiRegularTitle', sans-serif;
 }
 
-.font-melodi-light-description {
+.font-melodi-light {
   font-family: 'melodiLight', sans-serif;
+}
+
+.font-melodi-extra-light {
+  font-family: 'melodiExtraLight', sans-serif;
 }

@@ -9,6 +9,7 @@ import ContactMe from './assets/pages/Sections/ContactMe';
 import useIntersectionObserver from './assets/hooks/useIntersectionObserver';
 
 import mediaAssetsData from './assets/remoteAssets/mediaAssetsData.json';
+import Section from './assets/pages/Sections/Section';
 
 
 function App() {
@@ -29,6 +30,25 @@ function App() {
             homeCover={mediaAssetsData.assetsData.homeCover}
           />
         </section>
+
+        
+        <ul>
+          {mediaAssetsData.assetsData.projectGroups.map((projectGroup, index) => (
+            <li key={index} id={`projectGroup-${index}`}>
+              <section id={projectGroup.projectGroupName}>
+                <Section
+                  projectGroupName={projectGroup.projectGroupName}
+                  projectGroupDescription={projectGroup.projectGroupDescription}
+                  projectItemsData={projectGroup.projectItemsData}>
+                  
+                </Section>
+              </section>
+              
+            </li>
+          
+          ))}
+        </ul>
+
         <section id="gameDevProjects">
           <GameDevProjects />
         </section>

@@ -1,37 +1,8 @@
 import React from 'react'
+import SubSection from './SubSection';
+import { ProjectGroup } from '../../types/interfaces.ts';
 
 
-interface ProjectGroup {
-  projectGroupName: string;
-  projectGroupDescription: string;
-  projectItemsData: ProjectItem[];
-}
-
-interface ProjectItem {
-  itemType: string;
-  mediaPreviewUrl: string;
-  imagePlayableReferenceUrl: string;
-  title: string;
-  description: string;
-  gameAssetImageUrl: string;
-  company: Company;
-  professionalRoles: string;
-  platforms: string;
-  callToActions: CallToAction[];
-  itemCoverBackgroundType: string;
-  backgroundCoverImageUrl: string;
-  backgroundCoverVideoUrl: string;
-}
-
-interface Company {
-  companyName: string;
-  companyUrl: string;
-}
-
-interface CallToAction {
-  callToActionText: string;
-  callToActionUrl: string;
-}
 
 const Section: React.FC<ProjectGroup> = ({ projectGroupName, projectGroupDescription, projectItemsData }) => {
 /**
@@ -40,9 +11,36 @@ const Section: React.FC<ProjectGroup> = ({ projectGroupName, projectGroupDescrip
  */
   return (
     <div>
-          {projectGroupName}
+      
+      <div 
+        className='pt-24 pb-20
+        md:pl-30 md:pr-30 
+        sm:pl-10 sm:pr-10
+        pl-10 pr-10'
+        style={{
+          backgroundColor: '#1D1D1D', // Colore personalizzato in formato esadecimale
+        }}>
+        <h1 className='text-white font-melodi-light text-title' >{projectGroupName}</h1>
+        <p className='text-white mt-2 font-melodi-light text-sub-title'>{projectGroupDescription}</p>
+      </div>
+      
+      <ul>
+        {projectItemsData.map((projectItem, index) => (
+          <li key={index} id={`projectItem-${index}`}>
+            <section id={projectItem.title}>
+              <SubSection 
+                projectItem={projectItem}>
+                
+              </SubSection>
+            </section>
+            
+          </li>
+        
+        ))}
+      </ul>
       
     </div>
+    
   )
 }
 

@@ -1,20 +1,9 @@
 import React from 'react';
 import { MdOutlineMail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import { HomeSectionProps } from '../../types/interfaces';
 
-interface HomeSectionProps {
-  portfolioOwner: string;
-  role: string;
-  homeCover: HomeCover;
-}
 
-interface HomeCover {
-  coverImageUrl: string;
-  personalEmail: string;
-  linkedinURL: string;
-  coverDescription1: string;
-  coverDescription2: string;
-}
 
 const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCover }) => {
   return (
@@ -43,10 +32,10 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
         lg:p-10
         w-220`}>
         
-        <h1 className='text-white text-owner font-melodi-semi-bold-title uppercase'>
+        <h1 className='text-white text-title font-melodi-semi-bold-title uppercase'>
           {portfolioOwner}
         </h1>
-        <h3 className='text-white text-owner-role font-melodi-semi-bold-title uppercase'>
+        <h3 className='text-white text-home-description font-melodi-semi-bold-title uppercase'>
           {role}
         </h3>
         <p className='text-white mt-12 text-home-cover-description font-melodi-mono-medium'>{homeCover.coverDescription1}</p>

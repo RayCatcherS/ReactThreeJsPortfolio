@@ -25,9 +25,9 @@
                 "projectGroupDescription" : "A sample of the game titles that I've worked on over the years",
                 "projectItemsData" : [
                     {
-                        "itemType" : "ItemType.urlImagePlayableReference",
+                        "itemType" : "ItemType.YoutubeUrl",
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/MCTC/MCTCVideoImage.jpg",
-                        "imagePlayableReferenceUrl" : "https://www.youtube.com/watch?v=d2o9U2H_hgM&ab_channel=TEDDYNetwork",
+                        "mediaItemSource" : "https://www.youtube.com/embed/d2o9U2H_hgM?si=MIiHPzL8a1vauozE",
                         "title" : "My Clinical Trial Center",
                         "description" : "Il gioco mira a spiegare ai bambini in modo divertente cosa sono le sperimentazioni cliniche, come funzionano e perché sono così importanti per lo sviluppo di farmaci adatti ai bambini. È estremamente informativo, poiché i giocatori impareranno a conoscere le sperimentazioni cliniche, il protocollo di studio, il consenso informato e l'assenso nei bambini, le fasi e le procedure delle sperimentazioni cliniche, la raccolta dei dati e la farmacovigilanza.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/MCTC/ChildSpriteBase.png",
@@ -54,9 +54,9 @@
                 "projectGroupDescription" : "A sample of the personal game projects that I've worked",
                 "projectItemsData" : [
                     {
-                        "itemType" : "ItemType.urlVideo",
+                        "itemType" : "ItemType.UrlVideo",
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/control.mp4",
-                        "imagePlayableReferenceUrl" : "",
+                        "mediaItemSource" : "",
                         "title" : "Vergeltung",
                         "description" : "Vergeltung è un gioco di genere Stealth con elementi Top-Down Shooting ambientato in universo distopico in cui le forze naziste hanno vinto la guerra usando delle tecnologie antiche. I nazisti hanno addestrato forze armate specializzate incaricate nel cercare e sterminare i detentori di queste tecnologie, dominandone il possesso. Il protagonista dovrà fuggire se verrà scoperto e salvare la pelle in ogni modo possible(fuggendo al buio oppure confondendo i nemici). Il giocatore dovrà riuscire ad riappropriarsi degli equipagiamenti nemici, piegando l'ambiente circostante contro loro stessi, mentre eserciti di nemici marciano per le strade, bisognerà infiltrarsi tra i vari edifici senza farsi scoprire, cercando di raggiungere le zone strategiche particolarmente militarizzate. Le zone strategiche sorvegliano l'accesso a dei monoliti realizzati con le antiche tecnologie dei detentori. Ottenere energia dai monoliti consentirà al protagonista di usarne il potere e di prendere fisicamente il controllo degli altri esseri umani. Il protagonista userà questa tecnologia per controllare civili e soldati(anche in modo amorale) per costruire ed improvvisare la propria vendetta, sabotando ed utilizzando armi e dispositivi della fazione nemica. Il giocatore controllando gli altri umani, potrà creare una catena di controllo, permettendogli di sfruttare il ruolo dei character controllati per raggiungere zone inaccessibili o per usarli come vite sacrificabili. Tutti gli assets, modelli 3D, UI e livelli di gioco sono stati realizzati da me.",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/VergeltungAsset.png",
@@ -72,14 +72,14 @@
                                 "callToActionUrl" : "https://github.com/RayCatcherS/Vergeltung"
                             }
                         ],
-                        "itemCoverBackgroundType" : "image",
-                        "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/Immagine9.jpg",
-                        "backgroundCoverVideoUrl" : ""
+                        "itemCoverBackgroundType" : "video",
+                        "backgroundCoverImageUrl" : "",
+                        "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/VergeltungBackground.mp4"
                     },
                     {
-                        "itemType" : "ItemType.urlVideo",
+                        "itemType" : "ItemType.UrlVideo",
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/MatrixFactory/matrixGameplay.mp4",
-                        "imagePlayableReferenceUrl" : "",
+                        "mediaItemSource" : "",
                         "title" : "Matrix Factory",
                         "description" : "Matrix Factory è un puzzle game sperimentale sviluppato in 4 mesi. Nel gioco si devono configurare i percorsi adeguati per consegnare la quantità sufficiente di pacchi per superare il livello. I pacchi bomba dovranno essere scartati con l'inceneritore affinchè non danneggino altri pacchi. In questo progetto ho sperimentato la generazione di livelli tramite un algoritmo di ricerca esaustiva. I livelli generati vengono poi valutati da un algoritmo che valuta uno scoring che ne rappresenta la difficoltà rispetto alle caratteristiche del livello generato. I livelli vengono presentati al giocatore in ordine di difficoltà crescente. Tutti gli assets, modelli 3D, effetti, illuminazione e UI sono stati realizzati da me.",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/MatrixFactory/matrixFactoryAsset.png",
@@ -110,9 +110,9 @@
                 "projectGroupDescription" : "A concepts of the game titles that I prototype",
                 "projectItemsData" : [
                     {
-                        "itemType": "ItemType.urlImagePlayableReference",
+                        "itemType": "ItemType.YoutubeUrl",
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/sciFireVideoImage.jpg",
-                        "imagePlayableReferenceUrl": "https://youtube.com/shorts/uZXDRLjslM8",
+                        "mediaItemSource": "https://www.youtube.com/embed/uZXDRLjslM8",
                         "title": "Sci-Fire",
                         "description": "È una demo di un platform a scorrimento verticale in stile grafico NewRetroWave ispirato al genere dei casual game. Tutti gli assets, modelli 3D, UI e livelli di gioco sono stati realizzati da me.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/sciFireAsset.png",
@@ -133,9 +133,9 @@
                         "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/SciFireCoverVideo.mp4"
                     },
                     {
-                        "itemType": "ItemType.urlImagePlayableReference",
+                        "itemType": "ItemType.YoutubeUrl",
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/7AM/7AMVideoPreview.jpg",
-                        "imagePlayableReferenceUrl": "https://youtu.be/2QCzSmXjU60",
+                        "mediaItemSource": "https://www.youtube.com/embed/2QCzSmXjU60?si=_x_cyxluu-_p1R_f",
                         "title": "07:00 AM",
                         "description": "Amo Spiderman da sempre e ho sempre sognato di realizzare un gioco in cui si oscilla liberamente tra i grattacieli di una metropoli. In questa concept demo il dipendente di un'azienda dovrà oscillare tra gli edifici di una metropoli, sfruttando la fisica dell'oscillazione e cercando di arrivare al lavoro in orario, senza schiantarsi al suolo.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/7AM/7AMAsset.png",
@@ -162,9 +162,9 @@
                 "projectGroupDescription" : "Other projects / in which I have collaborated",
                 "projectItemsData" : [
                     {
-                        "itemType": "ItemType.urlImagePlayableReference",
+                        "itemType": "ItemType.YoutubeUrl",
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/GGJ/FoodsRoots/logo.jpg",
-                        "imagePlayableReferenceUrl": "https://www.youtube.com/watch?v=kvMvK_FZabo&ab_channel=LuciaPatrono",
+                        "mediaItemSource": "https://www.youtube.com/embed/kvMvK_FZabo?si=kzHLP8ksWdTEbqDF",
                         "title": "Foods & Roots",
                         "description": "Sviluppato durante la Global Game Jam 2023 a Bari.\n🌍 “Foods & Roots” di Alberto Putignano, Alessia Schiavone, Federica Asia Zambetta, Lucia Patrono, Stefano Romanelli, Stefano De Robertis, Stefano Sanitate, Riccardo Reina.\n🍜 L’apparente eccentricità di una pietanza nasconde ragioni precise, stravaganti, spesso politiche...  Con “Foods & Roots” potrete seguire a ritroso il percorso tracciato dai piatti tradizionali in giro per il mondo e scoprire le loro radici culturali!\n👀 Indizio: lasciatevi guidare dal vento, proprio come dei veri esploratori.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/GGJ/FoodsRoots/gameAsset.png",
@@ -185,9 +185,9 @@
                         "backgroundCoverVideoUrl" : ""
                     },
                     {
-                        "itemType" : "ItemType.urlImage",
+                        "itemType" : "ItemType.UrlImage",
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/muovoLogo.png",
-                        "imagePlayableReferenceUrl": "https://www.youtube.com/watch?v=kvMvK_FZabo&ab_channel=LuciaPatrono",
+                        "mediaItemSource": "https://www.youtube.com/watch?v=kvMvK_FZabo&ab_channel=LuciaPatrono",
                         "title": "Muovo",
                         "description": "Prototipo finale della user interface per il progetto di esame Interazione Uomo Macchina realizzata usando un approccio Human-Centered Design, applicando linee guida e principi studiati durante il corso dell'esame, in modo da rendere l'interazione con il sistema più immediata possibile.\nL'idea progettuale per questo caso di studio è un’applicazione di cash back per incentivare i cittadini a riciclare i rifiuti. L’utente otterrà e accumulerà punti riciclando i rifiuti presso gli appositi centri, per poi usare questi punti accumulati per riscattare premi.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/figmaAssetsScreens.png",
@@ -208,9 +208,9 @@
                         "backgroundCoverVideoUrl" : ""
                     },
                     {
-                        "itemType": "ItemType.urlImagePlayableReference",
+                        "itemType": "ItemType.YoutubeUrl",
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrateVideoPreview.jpg",
-                        "imagePlayableReferenceUrl": "https://www.youtube.com/watch?v=oSb0LKCYWYc&ab_channel=Celebrateit",
+                        "mediaItemSource": "https://www.youtube.com/embed/oSb0LKCYWYc?si=puHi5fKMfZQ9Tzvk",
                         "title" : "Celebrate",
                         "description" : "Celebrate.it è la piattaforma gratuita che riunisce al suo interno locali dove festeggiare avvenimenti di vario tipo e trovare professionisti che si occupano dell'intrattenimento durante l'evento e dopo di esso. Provala oggi!\nLa nostra missione è quella di rendere facile e veloce il processo di organizzazione di questi eventi, dando contemporaneamente visibilità a locali pubblici o privati disponibili per tali occasioni, e fornendo un potente strumento organizzativo per la gestione degli stessi.\nLa nostra vision è proiettata verso la creazione di un luogo digitale dove ogni componente specifica di un evento privato possa incontrare la domanda dell'utente, dalla ricerca della location fini all’offerta di servizi aggiuntivi erogati da professionisti come fotografi, allestitori, catering e servizi di trasporto, per rendere veramente unico ogni evento.",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrate_logo.png",

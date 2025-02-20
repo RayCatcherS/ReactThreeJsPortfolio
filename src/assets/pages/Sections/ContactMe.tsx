@@ -1,14 +1,7 @@
 import React from 'react';
 import { MdOutlineMail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-
-interface ContactMeProps {
-    contactMeTitle: string;
-    contactMeDescription: string;
-    contactMeCoverImage: string;
-    personalEmail: string;
-    linkedinURL: string;
-}
+import { ContactMeProps } from '../../types/interfaces';
 
 
 
@@ -29,8 +22,8 @@ const ContactMe: React.FC<ContactMeProps> = ({ contactMeTitle, contactMeDescript
             background: 'linear-gradient(to bottom, rgba(29, 29, 29, 1), rgba(138, 43, 226, 0.4)',
           }}></div> */}
           <div className='relative'>
-              <h1 className='text-white font-melodi-regular-title text-owner'>{contactMeTitle}</h1>
-              <p className='text-white mt-5 font-melodi-light-description text-description'>{contactMeDescription}</p>
+              <h1 className='text-white font-melodi-light text-title' style={{ fontWeight: "bold" }}>{contactMeTitle}</h1>
+              <p className='text-white mt-5 font-melodi-light text-description'>{contactMeDescription}</p>
               <div className='flex mt-15'>
                 <a href={personalEmail} className='text-blue-400 block'>
                     <MdOutlineMail  size={30} color='white'/>
