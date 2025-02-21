@@ -1,18 +1,26 @@
-import { useState } from 'react';
+
 import Navbar from './assets/components/Navbar';
 import HomeSection from './assets/pages/Sections/HomeSection';
 import About from './assets/pages/Sections/AboutSection';
 import ContactMe from './assets/pages/Sections/ContactMe';
-import useIntersectionObserver from './assets/hooks/useIntersectionObserver';
 
 import mediaAssetsData from './assets/remoteAssets/mediaAssetsData.json';
 import Section from './assets/pages/Sections/Section';
+import useScrollSpy from './assets/hooks/scrollSpy';
 
 
 function App() {
-  const [activeSection, setActiveSection] = useState('');
+  
 
-  useIntersectionObserver(setActiveSection);
+  const sectionIds = [
+    'home',
+    ...mediaAssetsData.assetsData.projectGroups.map((_, index) => `section-${index}`),
+    'about',
+    'contact',
+  ];
+
+  const activeSection = useScrollSpy(sectionIds);
+  //useIntersectionObserver(setActiveSection);
 
 
   return (
@@ -30,7 +38,7 @@ function App() {
         
         <ul>
           {mediaAssetsData.assetsData.projectGroups.map((projectGroup, index) => (
-            <li key={index} id={index.toString()}>
+            <li key={index} id={`section-${index}`}>
               <section id={`section-${index}`}>
                 <Section
                   projectGroupName={projectGroup.projectGroupName}

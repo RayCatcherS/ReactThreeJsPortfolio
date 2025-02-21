@@ -9,6 +9,9 @@ import { ProjectGroup } from '../types/interfaces';
 */
 
 const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }> = ({ projectGroups, activeSection }) => {
+  
+  //console.log(`Navbar ha ricevuto activeSection: ${activeSection}`);
+
   return (
     <header className="header fixed top-0 left-0 w-full z-50 ">
       <nav className="flex text-lg gap-7 font-medium p-10">
@@ -41,7 +44,7 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
                   className={`cursor-pointer`}
                 >
                   <p className={`p-3 ${
-                  activeSection === `${index}` ? 'violet-gradient-text' : 'text-white'
+                  activeSection === `section-${index}` ? 'violet-gradient-text' : 'text-white'
                   }`}>{projectGroup.projectGroupName}</p>
                 </Link>
               </li>
