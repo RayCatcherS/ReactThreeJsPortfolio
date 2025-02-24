@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectItem } from '../../../types/interfaces';
+import { ProjectItem } from '../../../../types/interfaces';
 import SubSubSectionIntroduction from './SubsubSections/SubSubSectionIntroduction';
 import SubSubSectionDescription from './SubsubSections/SubSubSectionDescription';
 

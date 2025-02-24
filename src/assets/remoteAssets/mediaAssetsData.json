@@ -50,7 +50,7 @@
                 ]
             },
             {
-                "projectGroupName" : "Personal Projects",
+                "projectGroupName" : "My Projects",
                 "projectGroupDescription" : "A sample of the personal game projects that I've worked",
                 "projectItemsData" : [
                     {
@@ -106,7 +106,7 @@
                 ]
             },
             {
-                "projectGroupName" : "Personal Game Concept Projects",
+                "projectGroupName" : "Game Concept",
                 "projectGroupDescription" : "A concepts of the game titles that I prototype",
                 "projectItemsData" : [
                     {

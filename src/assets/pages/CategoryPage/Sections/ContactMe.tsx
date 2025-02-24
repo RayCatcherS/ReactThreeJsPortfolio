@@ -1,16 +1,17 @@
 import React from 'react';
 import { MdOutlineMail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import { ContactMeProps } from '../../types/interfaces';
+import { ContactMeProps } from '../../../types/interfaces';
 
 
 
-const ContactMe: React.FC<ContactMeProps> = ({ contactMeTitle, contactMeDescription, contactMeCoverImage, personalEmail, linkedinURL }) => {
+const ContactMe: React.FC<{ contactMeProps: ContactMeProps, personalEmail: string, linkedinURL: string }>
+  = ({ contactMeProps, personalEmail, linkedinURL }) => {
   return (
     <div
       className='relative pt-31 pl-30 pr-30 pb-31'
       style={{
-        backgroundImage: `url(${contactMeCoverImage})`,
+        backgroundImage: `url(${contactMeProps.contactMeCoverImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -22,8 +23,8 @@ const ContactMe: React.FC<ContactMeProps> = ({ contactMeTitle, contactMeDescript
             background: 'linear-gradient(to bottom, rgba(29, 29, 29, 1), rgba(138, 43, 226, 0.4)',
           }}></div> */}
           <div className='relative'>
-              <h1 className='text-white font-melodi-light text-title' style={{ fontWeight: "bold" }}>{contactMeTitle}</h1>
-              <p className='text-white mt-5 font-melodi-light text-description'>{contactMeDescription}</p>
+              <h1 className='text-white font-melodi-light text-title' style={{ fontWeight: "bold" }}>{contactMeProps.contactMeTitle}</h1>
+              <p className='text-white mt-5 font-melodi-light text-description'>{contactMeProps.contactMeDescription}</p>
               <div className='flex mt-15'>
                 <a href={personalEmail} className='text-blue-400 block'>
                     <MdOutlineMail  size={30} color='white'/>

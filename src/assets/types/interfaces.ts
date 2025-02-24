@@ -1,3 +1,12 @@
+export interface MediaAssetData {
+  portfolioOwner: string;
+  role: string;
+  homeCover: HomeCover;
+  aboutMe: AboutMeProps;
+  contactMe: ContactMeProps;
+  projectGroups: ProjectGroup[];
+}
+
 export interface ProjectGroup {
     projectGroupName: string;
     projectGroupDescription: string;
@@ -48,8 +57,6 @@ export interface ContactMeProps {
     contactMeTitle: string;
     contactMeDescription: string;
     contactMeCoverImage: string;
-    personalEmail: string;
-    linkedinURL: string;
 }
 
 export interface AboutMeProps {

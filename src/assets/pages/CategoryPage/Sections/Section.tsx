@@ -1,6 +1,6 @@
 import React from 'react'
 import SubSection from './SubSection/SubSection.tsx';
-import { ProjectGroup } from '../../types/interfaces.ts';
+import { ProjectGroup } from '../../../types/interfaces.ts';
 
 
 

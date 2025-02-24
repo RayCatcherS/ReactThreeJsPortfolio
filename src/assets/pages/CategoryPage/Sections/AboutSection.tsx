@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutMeProps } from '../../types/interfaces';
+import { AboutMeProps } from '../../../types/interfaces';
 
 
 

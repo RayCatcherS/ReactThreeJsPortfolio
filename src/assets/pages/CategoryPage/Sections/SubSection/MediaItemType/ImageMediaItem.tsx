@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectItem } from '../../../../types/interfaces'
+import { ProjectItem } from '../../../../../types/interfaces'
 
 const ImageMediaItem: React.FC<{ projectItem: ProjectItem }> = ({ projectItem }) => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import ButtonCallToAction from '../../../../components/ButtonCallToAction'
-import { ProjectItem, ItemType } from '../../../../types/interfaces'
+import ButtonCallToAction from '../../../../../components/ButtonCallToAction'
+import { ProjectItem, ItemType } from '../../../../../types/interfaces'
 import ImageMediaItem from '../MediaItemType/ImageMediaItem'
 import YoutubeMediaItem from '../MediaItemType/YoutubeMediaItem'
 import VideoMediaItem from '../MediaItemType/VideoMediaItem'
