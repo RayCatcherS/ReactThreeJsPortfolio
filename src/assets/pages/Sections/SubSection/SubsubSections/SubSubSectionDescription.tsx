@@ -50,6 +50,9 @@ const SubSubSectionDescription: React.FC<{ projectItem: ProjectItem }> = ({ proj
                 autoPlay
                 loop
                 muted
+                playsInline
+                disablePictureInPicture
+                webkit-playsinline="true"
                 style={{
                     position: 'absolute',
                     top: 0,
@@ -58,6 +61,8 @@ const SubSubSectionDescription: React.FC<{ projectItem: ProjectItem }> = ({ proj
                     height: '100%',
                     objectFit: 'cover',
                     zIndex: 0,
+                    pointerEvents: 'none', // Evita interazioni con il video
+                    userSelect: 'none', // Previene selezioni indesiderate
                 }}
             >
                 <source src={projectItem.backgroundCoverVideoUrl} type="video/mp4" />
