@@ -11,14 +11,15 @@ const SubSubSectionIntroduction: React.FC<{ projectItem: ProjectItem }> = ({ pro
         className='relative pt-26 pb-26
         md:pl-30 md:pr-30 
         sm:pl-10 sm:pr-10
-        pl-10 pr-10'
-        style={{
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', // Colore nero con opacità
-            backgroundBlendMode: 'overlay', // Modalità di fusione
-        }}>
-        
+        pl-10 pr-10'>
+        {/* Overlay nero con opacità e sfocatura */}
+        <div
+            className='absolute inset-0 z-2'
+            style={{
+                backgroundColor: 'rgba(0, 0, 0, 0.5)'
+        }}></div>
         <div className='flex justify-center items-center'>
-            <div className='relative z-10 flex justify-center w-430 flex-col md:flex-row'>
+            <div className='relative z-3 flex justify-center w-430 flex-col md:flex-row'>
                 <div className='flex-100 order-2 md:order-1'>
                     <h1 className='text-white font-melodi-light text-title sm:pt-9 pt-9 md:pt-0' style={{ fontWeight: "bold" }}>
                         {projectItem.title}</h1>
@@ -70,7 +71,7 @@ const SubSubSectionIntroduction: React.FC<{ projectItem: ProjectItem }> = ({ pro
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
-                    zIndex: -1,
+                    zIndex: 0,
                 }}
             >
                 <source src={projectItem.backgroundCoverVideoUrl} type="video/mp4" />
@@ -82,7 +83,7 @@ const SubSubSectionIntroduction: React.FC<{ projectItem: ProjectItem }> = ({ pro
                     backgroundImage: `url(${projectItem.backgroundCoverImageUrl})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    zIndex: -1,
+                    zIndex: 0,
                 }}
             ></div>
         )}

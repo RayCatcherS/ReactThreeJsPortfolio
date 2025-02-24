@@ -7,7 +7,9 @@ const SubSection: React.FC<{ projectItem: ProjectItem }> = ({ projectItem }) => 
     return (
         <div>
             <SubSubSectionIntroduction projectItem={projectItem} />
+
             <SubSubSectionDescription projectItem={projectItem} />
+            
         </div>
 
     );
