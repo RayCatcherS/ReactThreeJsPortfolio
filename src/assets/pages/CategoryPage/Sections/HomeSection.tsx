@@ -24,6 +24,9 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
       <div className={`absolute inset-0 bg-violet-950 opacity-65 
         h-screen sm:h-screen md:h-182 lg:h-182`}></div>
       
+      {/* stile 2 */}
+      {/* <div className={`absolute inset-0  
+        h-screen sm:h-screen md:h-182 lg:h-182`} style={{backgroundColor: `rgb(18, 7, 31)`}}></div>*/ }
 
       <div className={`relative text-left flex flex-col items-center
         p-10

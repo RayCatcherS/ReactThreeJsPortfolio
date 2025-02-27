@@ -6,8 +6,8 @@
             "coverImageUrl" : "https://stefanoromanelli.it/remoteAssets/Immagine9.jpg",
             "personalEmail" : "mailto:romanelli1996@gmail.com",
             "linkedinURL" : "https://www.linkedin.com/in/stefano-romanelli-bb80a6108",
-            "coverDescription1" : "Hello! Il mio nome è Stefano e sono laureato in informatica. Sviluppo videogames e Serious Game su richiesta e nel tempo libero.",
-            "coverDescription2" : "In questo portfolio puoi trovare i miei progetti professionali e personali a cui ho lavorato."
+            "coverDescription1" : "Hello! Ciao, sono Stefano, laureato in Informatica e sviluppo videogiochi, serious games, software e risolvo alcuni problemi con algoritmi di intelligenza artificiale. Amo usare il mio tempo libero per sperimentare nuove tecnologie",
+            "coverDescription2" : "In questo portfolio sono presenti alcuni dei progetti a cui ho lavorato."
         },
         "aboutMe" : {
             "pictureProfile" : "https://stefanoromanelli.it/remoteAssets/pictureProfile.jpg",
@@ -21,7 +21,7 @@
         },
         "projectGroups" : [
             {
-                "projectGroupName" : "Professional Projects",
+                "projectGroupName" : "Game Development",
                 "projectGroupDescription" : "A sample of the game titles that I've worked on over the years",
                 "projectItemsData" : [
                     {
@@ -46,13 +46,7 @@
                         "itemCoverBackgroundType" : "image",
                         "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/MCTC/MCTCCoverImage.jpg",
                         "backgroundCoverVideoUrl" : ""
-                    }
-                ]
-            },
-            {
-                "projectGroupName" : "My Projects",
-                "projectGroupDescription" : "A sample of the personal game projects that I've worked",
-                "projectItemsData" : [
+                    },
                     {
                         "itemType" : "ItemType.YoutubeUrl",
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/control.mp4",
@@ -91,10 +85,6 @@
                         "platforms" : "(Android, Web)",
                         "callToActions" : [
                             {
-                                "callToActionText" : "Play Store",
-                                "callToActionUrl" : "https://play.google.com/store/apps/details?id=com.Raycatcher.MatrixFactory&hl=it&gl=US"
-                            },
-                            {
                                 "callToActionText" : "Itch.io",
                                 "callToActionUrl" : "https://raycats.itch.io/matrix-factory"
                             }
@@ -102,65 +92,30 @@
                         "itemCoverBackgroundType" : "video",
                         "backgroundCoverImageUrl": "",
                         "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/MatrixFactory/matrixFactoryBackground.mp4"
-                    }
-                ]
-            },
-            {
-                "projectGroupName" : "Game Concept",
-                "projectGroupDescription" : "A concepts of the game titles that I prototype",
-                "projectItemsData" : [
+                    }, 
                     {
-                        "itemType": "ItemType.YoutubeUrl",
-                        "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/sciFireVideoImage.jpg",
-                        "mediaItemSource": "https://www.youtube.com/embed/uZXDRLjslM8",
-                        "title": "Sci-Fire",
-                        "description": "È una demo di un platform a scorrimento verticale in stile grafico NewRetroWave ispirato al genere dei casual game. Tutti gli assets, modelli 3D, UI e livelli di gioco sono stati realizzati da me.",
-                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/sciFireAsset.png",
+                        "itemType": "ItemType.UrlImage",
+                        "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/gamedev/tubquest/tubquestItem.jpeg",
+                        "mediaItemSource" : "",
+                        "title" : "TubQuest",
+                        "description" : "While you were washing your hair with what apparently looked like a shampoo, you get randomly shrunk down to the size of a rubber duck while you are taking a warm bath! Are you ready to ward off sewer rats and a scary resilient bulk of air with just a bubble shooter? Find out in this rogue like game with two different levels of difficulty!",
+                        "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/gamedev/tubquest/tubAsset.png",
                         "company" : {
-                            "companyName" : "Personal Project",
+                            "companyName" : "Global Game Jam Team",
                             "companyUrl" : ""
                         },
-                        "professionalRoles": "Programmer | Game Design | Level Design | 3D Artist",
-                        "platforms": "(iOS | Android)",
+                        "professionalRoles": "Boss Battle | Character Controller | Game Design",
+                        "platforms": "(Android)",
                         "callToActions" : [
                             {
-                                "callToActionText" : "Try It",
-                                "callToActionUrl" : "https://celebrateit.it/sciFire/"
+                                "callToActionText" : "GGJ Page",
+                                "callToActionUrl" : "https://globalgamejam.org/games/2025/tubquest-3"
                             }
                         ],
-                        "itemCoverBackgroundType" : "video",
-                        "backgroundCoverImageUrl": "",
-                        "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/SciFireCoverVideo.mp4"
+                        "itemCoverBackgroundType" : "image",
+                        "backgroundCoverImageUrl": "https://stefanoromanelli.it/remoteAssets/gamedev/tubquest/tubquestBackground.jpeg",
+                        "backgroundCoverVideoUrl" : ""
                     },
-                    {
-                        "itemType": "ItemType.YoutubeUrl",
-                        "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/7AM/7AMVideoPreview.jpg",
-                        "mediaItemSource": "https://www.youtube.com/embed/2QCzSmXjU60?si=_x_cyxluu-_p1R_f",
-                        "title": "07:00 AM",
-                        "description": "Amo Spiderman da sempre e ho sempre sognato di realizzare un gioco in cui si oscilla liberamente tra i grattacieli di una metropoli. In questa concept demo il dipendente di un'azienda dovrà oscillare tra gli edifici di una metropoli, sfruttando la fisica dell'oscillazione e cercando di arrivare al lavoro in orario, senza schiantarsi al suolo.",
-                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/7AM/7AMAsset.png",
-                        "company" : {
-                            "companyName" : "Personal Project",
-                            "companyUrl" : ""
-                        },
-                        "professionalRoles": "Programmer | 3D Artist | Level Design",
-                        "platforms": "(iOS | Android)",
-                        "callToActions" : [
-                            {
-                                "callToActionText" : "Try It",
-                                "callToActionUrl" : "https://celebrateit.it/sciFire/"
-                            }
-                        ],
-                        "itemCoverBackgroundType" : "video",
-                        "backgroundCoverImageUrl": "",
-                        "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/7AM/7AMCover.mp4"
-                    }
-                ]
-            },
-            {
-                "projectGroupName" : "Other Personal Projects",
-                "projectGroupDescription" : "Other projects / in which I have collaborated",
-                "projectItemsData" : [
                     {
                         "itemType": "ItemType.YoutubeUrl",
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/GGJ/FoodsRoots/logo.jpg",
@@ -184,6 +139,42 @@
                         "backgroundCoverImageUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/GGJ/FoodsRoots/GGJFR.jpg",
                         "backgroundCoverVideoUrl" : ""
                     },
+                    {
+                        "itemType": "ItemType.YoutubeUrl",
+                        "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/sciFireVideoImage.jpg",
+                        "mediaItemSource": "https://www.youtube.com/embed/uZXDRLjslM8",
+                        "title": "Sci-Fire",
+                        "description": "È una demo di un platform a scorrimento verticale in stile grafico NewRetroWave ispirato al genere dei casual game. Tutti gli assets, modelli 3D, UI e livelli di gioco sono stati realizzati da me.",
+                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/sciFireAsset.png",
+                        "company" : {
+                            "companyName" : "Personal Project",
+                            "companyUrl" : ""
+                        },
+                        "professionalRoles": "Programmer | Game Design | Level Design | 3D Artist",
+                        "platforms": "(iOS | Android)",
+                        "callToActions" : [
+                            {
+                                "callToActionText" : "Try It",
+                                "callToActionUrl" : "https://celebrateit.it/sciFire/"
+                            }
+                        ],
+                        "itemCoverBackgroundType" : "video",
+                        "backgroundCoverImageUrl": "",
+                        "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/SciFireCoverVideo.mp4"
+                    }
+                ]
+            },
+            {
+                "projectGroupName" : "AI & Machine Learning",
+                "projectGroupDescription" : "A sample of the personal game projects that I've worked",
+                "projectItemsData" : [
+                    
+                ]
+            },
+            {
+                "projectGroupName" : "Software Development",
+                "projectGroupDescription" : "A concepts of the game titles that I prototype",
+                "projectItemsData" : [
                     {
                         "itemType" : "ItemType.UrlImage",
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/muovoLogo.png",
@@ -233,5 +224,31 @@
                 ]
             }
         ]
-    }
+    },
+    "not_used" : [
+        {
+            "itemType": "ItemType.YoutubeUrl",
+            "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/7AM/7AMVideoPreview.jpg",
+            "mediaItemSource": "https://www.youtube.com/embed/2QCzSmXjU60?si=_x_cyxluu-_p1R_f",
+            "title": "07:00 AM",
+            "description": "Amo Spiderman da sempre e ho sempre sognato di realizzare un gioco in cui si oscilla liberamente tra i grattacieli di una metropoli. In questa concept demo il dipendente di un'azienda dovrà oscillare tra gli edifici di una metropoli, sfruttando la fisica dell'oscillazione e cercando di arrivare al lavoro in orario, senza schiantarsi al suolo.",
+            "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/personalProjectImages/7AM/7AMAsset.png",
+            "company" : {
+                "companyName" : "Personal Project",
+                "companyUrl" : ""
+            },
+            "professionalRoles": "Programmer | 3D Artist | Level Design",
+            "platforms": "(iOS | Android)",
+            "callToActions" : [
+                {
+                    "callToActionText" : "Try It",
+                    "callToActionUrl" : "https://celebrateit.it/sciFire/"
+                }
+            ],
+            "itemCoverBackgroundType" : "video",
+            "backgroundCoverImageUrl": "",
+            "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/7AM/7AMCover.mp4"
+        }
+    ]
+
 }

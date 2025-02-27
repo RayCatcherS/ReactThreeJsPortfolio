@@ -11,6 +11,7 @@ function App() {
   return (
     <main>
       <CategoryPage mediaAssetData={mediaAssetsData.assetsData}></CategoryPage>
+      {/** <CategoryPage mediaAssetData={mediaAssetsData.assetsData}></CategoryPage> **/}
     </main>
   );
 }

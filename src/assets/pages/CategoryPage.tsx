@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import useScrollSpy from '../hooks/scrollSpy';
 import Navbar from '../components/Navbar';
 import ContactMe from './CategoryPage/Sections/ContactMe';
@@ -6,6 +6,7 @@ import About from './CategoryPage/Sections/AboutSection';
 import HomeSection from './CategoryPage/Sections/HomeSection';
 import Section from './CategoryPage/Sections/Section';
 import { MediaAssetData } from '../types/interfaces';
+import MobileNavbar from '../components/MobileNavbar';
 
 const CategoryPage: React.FC<{ mediaAssetData: MediaAssetData }> = ({ mediaAssetData }) => {
     const sectionIds = [
@@ -14,11 +15,23 @@ const CategoryPage: React.FC<{ mediaAssetData: MediaAssetData }> = ({ mediaAsset
         'about',
         'contact',
         ];
-
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 708);
+  useEffect(() => {
+      const handleResize = () => {
+          setIsDesktop(window.innerWidth > 850);
+      };
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+  }, []);
 const activeSection = useScrollSpy(sectionIds);
   return (
     <div>
-      <Navbar activeSection={activeSection} projectGroups={mediaAssetData.projectGroups} />
+      {isDesktop ? (
+          <Navbar activeSection={activeSection} projectGroups={mediaAssetData.projectGroups} />
+      ) : (
+          <MobileNavbar activeSection={activeSection} projectGroups={mediaAssetData.projectGroups}/>
+      )}
+      
       <div>
         <section id="home">
           <HomeSection

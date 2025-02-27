@@ -19,7 +19,7 @@
 
 .text-home-cover-description {
   font-size: 1.22rem; /* 42px, leggermente più grande di 4xl (36px) */
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .text-description {
