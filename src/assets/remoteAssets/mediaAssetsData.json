@@ -3,7 +3,7 @@
         "portfolioOwner" : "Stefano Romanelli",
         "role" : "game development / game designing",
         "homeCover" : {
-            "coverImageUrl" : "https://stefanoromanelli.it/remoteAssets/Immagine9.jpg",
+            "coverImageUrl" : "https://stefanoromanelli.it/remoteAssets/coverImage.jpg",
             "personalEmail" : "mailto:romanelli1996@gmail.com",
             "linkedinURL" : "https://www.linkedin.com/in/stefano-romanelli-bb80a6108",
             "coverDescription1" : "Hello! Ciao, sono Stefano, laureato in Informatica e sviluppo videogiochi, serious games, software e risolvo alcuni problemi con algoritmi di intelligenza artificiale. Amo usare il mio tempo libero per sperimentare nuove tecnologie",
@@ -17,7 +17,7 @@
         "contactMe" : {
             "contactMeTitle" : "Contact Me",
             "contactMeDescription" : "Puoi contattarmi via e-mail o tramite LinkedIn.",
-            "contactMeCoverImage" : "https://stefanoromanelli.it/remoteAssets/contactMeCover.png"
+            "contactMeCoverImage" : "https://stefanoromanelli.it/remoteAssets/cover4.png"
         },
         "projectGroups" : [
             {
@@ -168,7 +168,29 @@
                 "projectGroupName" : "AI & Machine Learning",
                 "projectGroupDescription" : "A sample of the personal game projects that I've worked",
                 "projectItemsData" : [
-                    
+                    {
+                        "itemType" : "ItemType.UrlImage",
+                        "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/homogeneous_classes_1.png",
+                        "mediaItemSource" : "",
+                        "title" : "Problema di ottimizzazione vincolata",
+                        "description" : "In questo progetto ho simulato il problema di un servizio online, con l'obiettivo di ottimizzare l'assegnazione degli utenti alle risorse disponibili (partite multiplayer). Per massimizzare l'efficienza del sistema, ho usato Google OR-Tools (CSP - Constraint Satisfaction Problem), in cui l'assegnazione ottimale degli utenti alle partite è guidata da una funzione obiettivo da minimizzare. Questa funzione penalizza assegnazioni non ottimali, favorendo: l'abbinamento di giocatori con livelli di abilità simili, la priorità per i giocatori in attesa da più tempo, la selezione di utenti con un basso tasso di abbandono, una distribuzione delle partite che rispecchi il pool di giocatori disponibili. L'approccio adottato garantisce un bilanciamento ed uno sfruttamento efficace delle risorse, migliorando anche l'esperienza complessiva di gioco.",
+                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/GORTItem.png",
+                        "company" : {
+                            "companyName" : "University Project",
+                            "companyUrl" : ""
+                        },
+                        "professionalRoles" : "Constrained Optimization Problem (CSP) | Clustering",
+                        "platforms" : "(Google OR-Tools| Python)",
+                        "callToActions" : [
+                            {
+                                "callToActionText" : "Github",
+                                "callToActionUrl" : "https://github.com/RayCatcherS/KnowledgeEngineeringProject"
+                            }
+                        ],
+                        "itemCoverBackgroundType" : "image",
+                        "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/KEBackground.png",
+                        "backgroundCoverVideoUrl" : ""
+                    }
                 ]
             },
             {

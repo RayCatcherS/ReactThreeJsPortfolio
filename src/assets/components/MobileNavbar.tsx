@@ -31,7 +31,7 @@ const MobileNavbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: str
                 <nav className="flex gap-7 font-medium p-10">
                     <button
                         onClick={toggleDropdown}
-                        className="text-white bg-violet-900 hover:bg-violet-950 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+                        className="text-white text-mobile-navbar bg-violet-900 hover:bg-violet-950 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
                         type="button">
                         {activeSection === 'home' ? 'Home' : activeSection === 'about' ? 'About/Contact Me' : projectGroups.find(group => `section-${projectGroups.indexOf(group)}` === activeSection)?.projectGroupName || 'Dropdown'}
                         <svg
@@ -63,7 +63,7 @@ const MobileNavbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: str
                                         className={`cursor-pointer`}
                                         onClick={() => setIsOpen(false)} // Chiude il menu al click su un link
                                     >
-                                        <p className={`p-3 ${activeSection === 'home' ? 'violet-gradient-text' : 'text-gray-300'}`}>
+                                        <p className={`p-3 text-mobile-navbar-item ${activeSection === 'home' ? 'violet-gradient-text' : 'text-gray-300'}`}>
                                             Home
                                         </p>
                                     </Link>
@@ -77,7 +77,7 @@ const MobileNavbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: str
                                             className={`cursor-pointer`}
                                             onClick={() => setIsOpen(false)} // Chiude il menu al click su un link
                                         >
-                                            <p className={`p-3 ${activeSection === `section-${index}` ? 'violet-gradient-text' : 'text-gray-300'}`}>
+                                            <p className={`p-3 text-mobile-navbar-item ${activeSection === `section-${index}` ? 'violet-gradient-text' : 'text-gray-300'}`}>
                                                 {projectGroup.projectGroupName}
                                             </p>
                                         </Link>
@@ -90,8 +90,8 @@ const MobileNavbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: str
                                     duration={500}
                                     className={`cursor-pointer`}
                                 >
-                                    <p className={`p-3  ${
-                                    activeSection === 'about' ? 'violet-gradient-text' : 'text-white'
+                                    <p className={`p-3 text-mobile-navbar-item  ${
+                                    activeSection === 'about' ? 'violet-gradient-text' : 'text-gray-300'
                                     }`}>About/Contact Me</p>
                                 </Link>
                                 </li>

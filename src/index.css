@@ -27,6 +27,15 @@
   line-height: 1.3;
 }
 
+.text-mobile-navbar {
+  font-size: 1.1rem; /* 42px, leggermente più grande di 4xl (36px) */
+  line-height: 1.1;
+}
+
+.text-mobile-navbar-item {
+  font-size: 0.9rem; /* 42px, leggermente più grande di 4xl (36px) */
+  line-height: 1.1;
+}
 
 html {
   font-size: var(--font-base);
