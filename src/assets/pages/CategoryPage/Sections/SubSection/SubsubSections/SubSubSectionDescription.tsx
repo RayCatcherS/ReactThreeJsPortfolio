@@ -23,7 +23,7 @@ const SubSubSectionDescription: React.FC<{ projectItem: ProjectItem }> = ({ proj
                     <p className='pt-6 text-white font-melodi-light text-sub-title' style={{ fontWeight: "bold" }}>
                         {projectItem.professionalRoles}
                     </p>
-                    <p className='text-white mt-5 font-melodi-light text-description'>{projectItem.description}</p>
+                    <p style={{ whiteSpace: 'pre-line' }} className='text-white mt-5 font-melodi-light text-description'>{projectItem.description}</p>
                     
                     
                 </div>
