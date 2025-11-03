@@ -21,9 +21,32 @@
         },
         "projectGroups" : [
             {
-                "projectGroupName" : "Game Development",
-                "projectGroupDescription" : "A sample of the game titles that I've worked on over the years",
+                "projectGroupName" : "Professional Projects",
+                "projectGroupDescription" : "In questa sezione vengono elencati lavori ufficiali, contrattualizzati e realizzati in contesto professionale",
                 "projectItemsData" : [
+                    {
+                        "itemType": "ItemType.UrlVideo",
+                        "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/LexiGame/lexi_media.mp4",
+                        "mediaItemSource" : "",
+                        "title" : "Lexi Game",
+                        "description" : "Collaborazione professionale con l’Università degli Studi di Bari nell’ambito di un progetto di ricerca sulle tecnologie di supporto ai disturbi dell’apprendimento (“Attività di ricerca inerente tecnologie di supporto al trattamento della dislessia”). Mi sono occupato dello sviluppo e della progettazione del serious game, con l’obiettivo di migliorare l’esperienza educativa dei bambini attraverso attività interattive e personalizzate.\nIl gioco integra strumenti di probabilità e statistica e analisi dei dati per adattare il livello di difficoltà alle abilità del giocatore, promuovendo un apprendimento efficace e inclusivo.\nAttraverso mini-giochi di riconoscimento delle parole, i bambini possono esercitarsi in modo coinvolgente, in un ambiente accessibile e stimolante. Questa esperienza mi ha permesso di unire ricerca, sviluppo software, rafforzando le mie competenze in analisi dei dati, progettazione interattiva e serious game design.",
+                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/LexiGame/game_asset.png",
+                        "company" : {
+                            "companyName" : "Università degli Studi di Bari Aldo Moro",
+                            "companyUrl" : ""
+                        },
+                        "professionalRoles" : "Game Developer | Technical Artist | UI/UX Designer",
+                        "platforms" : "(iOS | Android)",
+                        "callToActions" : [
+                            {
+                                "callToActionText" : "About",
+                                "callToActionUrl" : "https://www.uniba.it/it/ateneo/albo-pretorio/ndeg-285-del-06-06-2025-decisione-a-contrarre-e-affidamento-diretto-ex-art-50-comma-1-lett-b-del-d-lgs-n-36-2023-fino-a-20ac-5-000-00-iva-esclusa-dipartimento-di-medicina-di-precisione-e-rigenerativa-e-area-jonica-dimepre-j"
+                            }
+                        ],
+                        "itemCoverBackgroundType" : "image",
+                        "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/LexiGame/lexi_background.jpg",
+                        "backgroundCoverVideoUrl" : ""
+                    },
                     {
                         "itemType" : "ItemType.YoutubeUrl",
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/MCTC/MCTCVideoImage.jpg",
@@ -46,7 +69,13 @@
                         "itemCoverBackgroundType" : "image",
                         "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/MCTC/MCTCCoverImage.jpg",
                         "backgroundCoverVideoUrl" : ""
-                    },
+                    }
+                ]
+            },
+            {
+                "projectGroupName" : "Personal Projects",
+                "projectGroupDescription" : "In questa sezione vengono elencati progetti paralleli, nati da passione o sperimentazione",
+                "projectItemsData" : [
                     {
                         "itemType" : "ItemType.YoutubeUrl",
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/control.mp4",
@@ -173,7 +202,7 @@
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/homogeneous_classes_1.png",
                         "mediaItemSource" : "",
                         "title" : "Problema di ottimizzazione vincolata",
-                        "description" : "In questo progetto ho simulato il problema di un servizio online, con l'obiettivo di ottimizzare l'assegnazione degli utenti alle risorse disponibili (partite multiplayer). Per massimizzare l'efficienza del sistema, ho usato Google OR-Tools (CSP - Constraint Satisfaction Problem), in cui l'assegnazione ottimale degli utenti alle partite è guidata da una funzione obiettivo da minimizzare. Questa funzione penalizza assegnazioni non ottimali, favorendo: l'abbinamento di giocatori con livelli di abilità simili, la priorità per i giocatori in attesa da più tempo, la selezione di utenti con un basso tasso di abbandono, una distribuzione delle partite che rispecchi il pool di giocatori disponibili. L'approccio adottato garantisce un bilanciamento ed uno sfruttamento efficace delle risorse, migliorando anche l'esperienza complessiva di gioco.",
+                        "description" : "In questo progetto ho simulato il problema di un servizio online con l'obiettivo di ottimizzare l'assegnazione degli utenti alle risorse disponibili (partite multiplayer).\nL’ottimizzazione è stata realizzata tramite Google OR-Toolssfruttando tecniche di programmazione lineare e CSP (Constraint Satisfaction Problem) per individuare la soluzione di assegnazione ottimale attraverso una ricerca esaustiva guidata da una funzione obiettivo da minimizzare.\nTale funzione penalizza le assegnazioni non ideali, favorendo:\n- l'abbinamento di giocatori con livelli di abilità simili\n- la priorità ai giocatori in attesa da più tempo\n- la preferenza per utenti con basso tasso di abbandono\n- una distribuzione delle partite coerente con la disponibilità dei giocatori in attesa di essere assegnati ad una risorsa. L'approccio adottato garantisce un bilanciamento equo e un uso efficiente delle risorse di sistema.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/GORTItem.png",
                         "company" : {
                             "companyName" : "University Project",
@@ -225,7 +254,7 @@
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrateVideoPreview.jpg",
                         "mediaItemSource": "https://www.youtube.com/embed/oSb0LKCYWYc?si=puHi5fKMfZQ9Tzvk",
                         "title" : "Celebrate",
-                        "description" : "Celebrate.it è la piattaforma gratuita che riunisce al suo interno locali dove festeggiare avvenimenti di vario tipo e trovare professionisti che si occupano dell'intrattenimento durante l'evento e dopo di esso. Provala oggi!\nLa nostra missione è quella di rendere facile e veloce il processo di organizzazione di questi eventi, dando contemporaneamente visibilità a locali pubblici o privati disponibili per tali occasioni, e fornendo un potente strumento organizzativo per la gestione degli stessi.\nLa nostra vision è proiettata verso la creazione di un luogo digitale dove ogni componente specifica di un evento privato possa incontrare la domanda dell'utente, dalla ricerca della location fini all’offerta di servizi aggiuntivi erogati da professionisti come fotografi, allestitori, catering e servizi di trasporto, per rendere veramente unico ogni evento.",
+                        "description" : "Celebrate.it è una piattaforma online che permette agli utenti di ricercare e prenotare locali per eventi. Il sistema integra strumenti per la gestione e l’organizzazione degli eventi, con interfaccia frontend sviluppata in Flutter Web e backend basato su Firebase.",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrate_logo.png",
                         "company" : {
                             "companyName" : "Personal Team Project",
