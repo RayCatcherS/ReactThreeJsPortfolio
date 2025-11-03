@@ -6,13 +6,13 @@
             "coverImageUrl" : "https://stefanoromanelli.it/remoteAssets/coverImage.jpg",
             "personalEmail" : "mailto:romanelli1996@gmail.com",
             "linkedinURL" : "https://www.linkedin.com/in/stefano-romanelli-bb80a6108",
-            "coverDescription1" : "Hello! Ciao, sono Stefano, laureato in Informatica e sviluppo videogiochi, serious games, software e risolvo alcuni problemi con algoritmi di intelligenza artificiale. Amo usare il mio tempo libero per sperimentare nuove tecnologie",
-            "coverDescription2" : "In questo portfolio sono presenti alcuni dei progetti a cui ho lavorato."
+            "coverDescription1" : "Ciao! Mi chiamo Stefano, sono laureato in Informatica e appassionato di sviluppo di videogiochi, serious games e programmazione. Di recente ho iniziato ad affrontare sfide legate all'impiego intelligenza artificiale risolvendo alcuni toy problems. Nel mio tempo libero amo esplorare nuove tecnologie e sperimentare con ciò che può diventare il prossimo progetto.",
+            "coverDescription2" : "In questo portfolio sono presenti alcuni progetti professionali e personali!"
         },
         "aboutMe" : {
             "pictureProfile" : "https://stefanoromanelli.it/remoteAssets/pictureProfile.jpg",
             "title" : "About Me",
-            "aboutMeDescription" : "Il mio nome è Stefano, ho 28 anni e sono laureato in informatica. Sono appassionato di sviluppo software, informatica, tecnologia e sviluppo di giochi. Sviluppare progetti software è la mia forma preferita di espressione della creatività."
+            "aboutMeDescription" : "Il mio nome è Stefano, ho 29 anni e sono laureato in Informatica. Sono appassionato di sviluppo software, tecnologia e game development. Sviluppare progetti software o ludici è la mia forma preferita di espressione della creatività."
         },
         "contactMe" : {
             "contactMeTitle" : "Contact Me",
@@ -29,13 +29,13 @@
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/MCTC/MCTCVideoImage.jpg",
                         "mediaItemSource" : "https://www.youtube.com/embed/d2o9U2H_hgM?si=MIiHPzL8a1vauozE",
                         "title" : "My Clinical Trial Center",
-                        "description" : "Il gioco mira a spiegare ai bambini in modo divertente cosa sono le sperimentazioni cliniche, come funzionano e perché sono così importanti per lo sviluppo di farmaci adatti ai bambini. È estremamente informativo, poiché i giocatori impareranno a conoscere le sperimentazioni cliniche, il protocollo di studio, il consenso informato e l'assenso nei bambini, le fasi e le procedure delle sperimentazioni cliniche, la raccolta dei dati e la farmacovigilanza.",
+                        "description" : "Un serious game pensato per spiegare ai bambini il valore delle sperimentazioni cliniche attraverso un approccio interattivo e ludico. Ogni area tematica si conclude con un piccolo quiz che mette alla prova ciò che hanno imparato, premiandoli con monete in base al punteggio ottenuto.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/MCTC/ChildSpriteBase.png",
                         "company" : {
                             "companyName" : "HERO s.r.l.",
                             "companyUrl" : ""
                         },
-                        "professionalRoles" : "Software Enginer | Programmer | Level Design | 3D Artist",
+                        "professionalRoles" : "Software Developer | UI/UX Developer | Visual Design | 3D Artist | Lighting Artist",
                         "platforms" : "(iOS | Android)",
                         "callToActions" : [
                             {
@@ -52,7 +52,7 @@
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/control.mp4",
                         "mediaItemSource" : "https://www.youtube.com/embed/SiCod34roFQ?si=cKFMEhRd90QVT_uC",
                         "title" : "Vergeltung",
-                        "description" : "Vergeltung è un gioco di genere Stealth con elementi Top-Down Shooting ambientato in universo distopico in cui le forze naziste hanno vinto la guerra usando delle tecnologie antiche. I nazisti hanno addestrato forze armate specializzate incaricate nel cercare e sterminare i detentori di queste tecnologie, dominandone il possesso. Il protagonista dovrà fuggire se verrà scoperto e salvare la pelle in ogni modo possible(fuggendo al buio oppure confondendo i nemici). Il giocatore dovrà riuscire ad riappropriarsi degli equipagiamenti nemici, piegando l'ambiente circostante contro loro stessi, mentre eserciti di nemici marciano per le strade, bisognerà infiltrarsi tra i vari edifici senza farsi scoprire, cercando di raggiungere le zone strategiche particolarmente militarizzate. Le zone strategiche sorvegliano l'accesso a dei monoliti realizzati con le antiche tecnologie dei detentori. Ottenere energia dai monoliti consentirà al protagonista di usarne il potere e di prendere fisicamente il controllo degli altri esseri umani. Il protagonista userà questa tecnologia per controllare civili e soldati(anche in modo amorale) per costruire ed improvvisare la propria vendetta, sabotando ed utilizzando armi e dispositivi della fazione nemica. Il giocatore controllando gli altri umani, potrà creare una catena di controllo, permettendogli di sfruttare il ruolo dei character controllati per raggiungere zone inaccessibili o per usarli come vite sacrificabili. Tutti gli assets, modelli 3D, UI e livelli di gioco sono stati realizzati da me.",
+                        "description" : "Vergeltung nasce come progetto universitario dedicato allo sviluppo di videogiochi e gameplay. È uno stealth game con elementi top-down shooter, ambientato in un mondo distopico dove le forze naziste hanno vinto la guerra grazie a tecnologie antiche. Il protagonista deve infiltrarsi tra edifici sorvegliati e sopravvivere evitando di essere scoperto, sfruttando l’ambiente e le risorse nemiche a proprio vantaggio. Attraverso una tecnologia proibita, può prendere il controllo fisico di civili e soldati, creando catene di controllo per infiltrarsi in aree inaccessibili o sacrificare i propri bersagli in modo strategico. L’obiettivo: costruire la propria vendetta ribaltando le stesse armi del nemico contro di lui. Tutti gli asset, modelli 3D, UI e livelli di gioco sono stati realizzati interamente da me.",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/Vergeltung/VergeltungAsset.png",
                         "company" : {
                             "companyName" : "University Project",
@@ -75,7 +75,7 @@
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/MatrixFactory/matrixGameplay.mp4",
                         "mediaItemSource" : "",
                         "title" : "Matrix Factory",
-                        "description" : "Matrix Factory è un puzzle game sperimentale sviluppato in 4 mesi. Nel gioco si devono configurare i percorsi adeguati per consegnare la quantità sufficiente di pacchi per superare il livello. I pacchi bomba dovranno essere scartati con l'inceneritore affinchè non danneggino altri pacchi. In questo progetto ho sperimentato la generazione di livelli tramite un algoritmo di ricerca esaustiva. I livelli generati vengono poi valutati da un algoritmo che valuta uno scoring che ne rappresenta la difficoltà rispetto alle caratteristiche del livello generato. I livelli vengono presentati al giocatore in ordine di difficoltà crescente. Tutti gli assets, modelli 3D, effetti, illuminazione e UI sono stati realizzati da me.",
+                        "description" : "Matrix Factory è un puzzle game sperimentale sviluppato in quattro mesi. Il giocatore deve configurare correttamente i percorsi per consegnare la quantità richiesta di pacchi, evitando quelli esplosivi che vanno eliminati tramite l’inceneritore. Il progetto esplora la generazione automatica di livelli tramite un algoritmo di ricerca esaustiva, seguito da una funzione di valutazione che assegna uno score di difficoltà in base alle caratteristiche di ciascun livello. I livelli vengono poi proposti al giocatore in ordine di difficoltà crescente. Tutti gli asset, modelli 3D, effetti, illuminazione e UI sono stati realizzati interamente da me.",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/MatrixFactory/matrixFactoryAsset.png",
                         "company" : {
                             "companyName" : "Personal Project",
@@ -101,7 +101,7 @@
                         "description" : "While you were washing your hair with what apparently looked like a shampoo, you get randomly shrunk down to the size of a rubber duck while you are taking a warm bath! Are you ready to ward off sewer rats and a scary resilient bulk of air with just a bubble shooter? Find out in this rogue like game with two different levels of difficulty!",
                         "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/gamedev/tubquest/tubAsset.png",
                         "company" : {
-                            "companyName" : "Global Game Jam Team",
+                            "companyName" : "Global Game Jam Team Project",
                             "companyUrl" : ""
                         },
                         "professionalRoles": "Boss Battle | Character Controller | Game Design",
@@ -121,10 +121,10 @@
                         "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/GGJ/FoodsRoots/logo.jpg",
                         "mediaItemSource": "https://www.youtube.com/embed/kvMvK_FZabo?si=kzHLP8ksWdTEbqDF",
                         "title": "Foods & Roots",
-                        "description": "Sviluppato durante la Global Game Jam 2023 a Bari.\n🌍 “Foods & Roots” di Alberto Putignano, Alessia Schiavone, Federica Asia Zambetta, Lucia Patrono, Stefano Romanelli, Stefano De Robertis, Stefano Sanitate, Riccardo Reina.\n🍜 L’apparente eccentricità di una pietanza nasconde ragioni precise, stravaganti, spesso politiche...  Con “Foods & Roots” potrete seguire a ritroso il percorso tracciato dai piatti tradizionali in giro per il mondo e scoprire le loro radici culturali!\n👀 Indizio: lasciatevi guidare dal vento, proprio come dei veri esploratori.",
+                        "description": "Sviluppato durante la Global Game Jam 2023 a Bari.\n🌍 “Foods & Roots”.\n🍜 L’apparente eccentricità di una pietanza nasconde ragioni precise, stravaganti, spesso politiche...  Con “Foods & Roots” potrete seguire a ritroso il percorso tracciato dai piatti tradizionali in giro per il mondo e scoprire le loro radici culturali!\n👀 Indizio: lasciatevi guidare dal vento, proprio come dei veri esploratori.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/GGJ/FoodsRoots/gameAsset.png",
                         "company" : {
-                            "companyName" : "Global Game Jam Team",
+                            "companyName" : "Global Game Jam Team Project",
                             "companyUrl" : ""
                         },
                         "professionalRoles": "Game Effects | Game Programming | Game Design",
