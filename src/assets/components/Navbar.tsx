@@ -26,7 +26,7 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
               className={`cursor-pointer rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md `}
             >
               <p className={`p-3 ${
-                activeSection === 'home' ? 'violet-gradient-text' : 'text-black'
+                activeSection === 'home' ? 'violet-gradient-text' : 'text-white'
               }`}>Home</p>
             </Link>
           </li>
