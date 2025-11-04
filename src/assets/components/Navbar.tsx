@@ -23,8 +23,9 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
               to="home"
               smooth={true}
               duration={500}
-              className={`cursor-pointer rounded-lg bg-white items-center justify-center flex font-bold text-lg shadow-md `}
-            >
+              className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${
+              activeSection === 'home' ? 'bg-white' : 'bg-white/10'
+            }`}>
               <p className={`p-3 ${
                 activeSection === 'home' ? 'violet-gradient-text' : 'text-white'
               }`}>Home</p>
@@ -35,31 +36,48 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
           
           
           <div className="flex space-x-5">
-            {projectGroups.map((projectGroup, index) => (
+            {projectGroups.map((projectGroup, index) => {
+              const isActive = activeSection === `section-${index}`;
+              return (
                 <li key={index} id={index.toString()}>
-                <Link
-                  to={`section-${index}`}
-                  smooth={true}
-                  duration={500}
-                  className={`cursor-pointer`}
-                >
-                  <p className={`p-3 ${
-                  activeSection === `section-${index}` ? 'violet-gradient-text' : 'text-white'
-                  }`}>{projectGroup.projectGroupName}</p>
-                </Link>
-              </li>
-              
-            ))}
+                  <Link
+                    to={`section-${index}`}
+                    smooth={true}
+                    duration={500}
+                    className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${
+                    isActive ? 'bg-white' : 'bg-white/10'
+                    }`}
+                  >
+                    <p
+                      className={`p-3 ${
+                        isActive ? 'violet-gradient-text' : 'text-white'
+                      }`}
+                    >
+                      {projectGroup.projectGroupName}
+                    </p>
+                  </Link>
+                </li>
+              );
+            })}
             <li>
+              {/** About/Contact Me link */}
               <Link
                 to="about"
                 smooth={true}
                 duration={500}
-                className={`cursor-pointer`}
+                className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${
+                activeSection === 'about' ? 'bg-white' : 'bg-white/10'
+                }`}
               >
-                <p className={`p-3  ${
-                  activeSection === 'about' ? 'violet-gradient-text' : 'text-white'
-                }`}>About/Contact Me</p>
+                <p
+                  className={`p-3 ${
+                    activeSection === 'about'
+                      ? 'violet-gradient-text'
+                      : 'text-white'
+                  }`}
+                >
+                  About/Contact Me
+                </p>
               </Link>
             </li>
           </div>
