@@ -1,18 +1,19 @@
 {
     "assetsData" : {
         "portfolioOwner" : "Stefano Romanelli",
-        "role" : "game development / game designing",
+        "role" : "software development / game development",
         "homeCover" : {
             "coverImageUrl" : "https://stefanoromanelli.it/remoteAssets/coverImage.jpg",
             "personalEmail" : "mailto:romanelli1996@gmail.com",
             "linkedinURL" : "https://www.linkedin.com/in/stefano-romanelli-bb80a6108",
+            "githubURL" : "https://github.com/RayCatcherS",
             "coverDescription1" : "Ciao! Mi chiamo Stefano, sono laureato in Informatica e appassionato di sviluppo di videogiochi, serious games e programmazione. Di recente ho iniziato ad affrontare sfide legate all'impiego intelligenza artificiale risolvendo alcuni toy problems. Nel mio tempo libero amo esplorare nuove tecnologie e sperimentare con ciò che può diventare il prossimo progetto.",
             "coverDescription2" : "In questo portfolio sono presenti alcuni progetti professionali e personali!"
         },
         "aboutMe" : {
             "pictureProfile" : "https://stefanoromanelli.it/remoteAssets/pictureProfile.jpg",
             "title" : "About Me",
-            "aboutMeDescription" : "Il mio nome è Stefano, ho 29 anni e sono laureato in Informatica. Sono appassionato di sviluppo software, tecnologia e game development. Sviluppare progetti software o ludici è la mia forma preferita di espressione della creatività."
+            "aboutMeDescription" : "Il mio nome è Stefano, sono laureato in Informatica e appassionato di sviluppo software, tecnologia e game development. Sviluppare progetti software o ludici è la mia forma preferita di espressione della creatività."
         },
         "contactMe" : {
             "contactMeTitle" : "Contact Me",
@@ -29,14 +30,14 @@
                         "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/LexiGame/lexi_media.mp4",
                         "mediaItemSource" : "",
                         "title" : "Lexi Game",
-                        "description" : "Collaborazione professionale con l’Università degli Studi di Bari nell’ambito di un progetto di ricerca sulle tecnologie di supporto ai disturbi dell’apprendimento (“Attività di ricerca inerente tecnologie di supporto al trattamento della dislessia”). Mi sono occupato dello sviluppo e della progettazione del serious game, con l’obiettivo di migliorare l’esperienza educativa dei bambini attraverso attività interattive e personalizzate.\nIl gioco integra strumenti di probabilità e statistica e analisi dei dati per adattare il livello di difficoltà alle abilità del giocatore, promuovendo un apprendimento efficace e inclusivo.\nAttraverso mini-giochi di riconoscimento delle parole, i bambini possono esercitarsi in modo coinvolgente, in un ambiente accessibile e stimolante. Questa esperienza mi ha permesso di unire ricerca, sviluppo software, rafforzando le mie competenze in analisi dei dati, progettazione interattiva e serious game design.",
+                        "description" : "Collaborazione professionale con l’Università degli Studi di Bari nell’ambito di un progetto di ricerca sulle tecnologie di supporto ai disturbi dell’apprendimento (“Attività di ricerca inerente tecnologie di supporto al trattamento della dislessia”).\nMi sono occupato dello sviluppo e della progettazione del serious game, basato su test cognitivi, con progressione adattiva e meccaniche motivazionali attraverso attività interattive e personalizzate.\nIl gioco integra strumenti di probabilità e statistica e analisi dei dati per adattare il livello di difficoltà alle abilità del giocatore, promuovendo un apprendimento efficace e inclusivo.\nAttraverso mini-giochi di riconoscimento delle parole, i bambini possono esercitarsi in modo coinvolgente, in un ambiente accessibile e stimolante. Questa esperienza mi ha permesso di unire ricerca, sviluppo software, rafforzando le mie competenze in analisi dei dati, progettazione interattiva e serious game design.",
                         "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/professionalProjectImages/LexiGame/game_asset.png",
                         "company" : {
                             "companyName" : "Università degli Studi di Bari Aldo Moro",
                             "companyUrl" : ""
                         },
                         "professionalRoles" : "Game Developer | Technical Artist | UI/UX Designer",
-                        "platforms" : "(iOS | Android)",
+                        "platforms" : "Unity (Android)",
                         "callToActions" : [
                             {
                                 "callToActionText" : "About",
@@ -59,7 +60,7 @@
                             "companyUrl" : ""
                         },
                         "professionalRoles" : "Software Developer | UI/UX Developer | Visual Design | 3D Artist | Lighting Artist",
-                        "platforms" : "(iOS | Android)",
+                        "platforms" : "Unity (iOS | Android)",
                         "callToActions" : [
                             {
                                 "callToActionText" : "Article / Download",
@@ -73,8 +74,68 @@
                 ]
             },
             {
+                "projectGroupName" : "AI & Machine Learning",
+                "projectGroupDescription" : "In questa sezione vengono elencati progetti universitari e personali legati al mondo dell'intelligenza artificiale e del machine learning",
+                "projectItemsData" : [
+                    {
+                        "itemType" : "ItemType.UrlImage",
+                        "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/ExperimentalThesisProject/itemPreviewThesisthesis.jpg",
+                        "mediaItemSource" : "",
+                        "title" : "Algoritmi di Reinforcement Learning per l'implementazione di NPC nei videogiochi",
+                        "description" : "In questo progetto di tesi sperimentale ho applicato tecniche di Reinforcement Learning per addestrare agenti in scenari di gioco simmetrici, utilizzando Self-Play in contesti multi-agente e strategie di Curriculum Learning per favorire un apprendimento progressivo. \nLa sperimentazione include anche metodi di Imitation Learning, come Generative Adversarial Imitation Learning (GAIL) e Behavioral Cloning, con l’obiettivo di ottenere politiche comportamentali più credibili e vicine a quelle umane, andando oltre la semplice massimizzazione della ricompensa.\nL’obiettivo principale è dimostrare che un agente addestrato con queste tecniche possa competere con giocatori umani in modo realistico, garantendo comportamenti naturali e un livello di sfida adeguato.\nLa tesi include inoltre un’analisi basata su test utente per valutare il grado di realismo percepito nelle diverse istanze di agenti (NPC) durante l’interazione.",
+                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/ExperimentalThesisProject/asset.png",
+                        "company" : {
+                            "companyName" : "Tesi sperimentale",
+                            "companyUrl" : ""
+                        },
+                        "professionalRoles" : "RL | Self-Play | Imitation Learning | Curriculum Learning",
+                        "platforms" : "ML-Agents | Unity",
+                        "callToActions" : [
+                            {
+                                "callToActionText" : "Presentazione",
+                                "callToActionUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/ExperimentalThesisProject/STEFANO_ROMANELLI.pptx"
+                            },
+                            {
+                                "callToActionText" : "Tesi Completa",
+                                "callToActionUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/ExperimentalThesisProject/Tesi_laurea_Reinforcement_Learning_.pdf"
+                            }
+                        ],
+                        "itemCoverBackgroundType" : "video",
+                        "backgroundCoverImageUrl" : "",
+                        "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/ExperimentalThesisProject/Inference.mp4"
+                    },
+                    {
+                        "itemType" : "ItemType.UrlImage",
+                        "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/homogeneous_classes_1.png",
+                        "mediaItemSource" : "",
+                        "title" : "Problema di ottimizzazione vincolata",
+                        "description" : "In questo progetto ho simulato il problema di un servizio online con l'obiettivo di ottimizzare l'assegnazione degli utenti alle risorse disponibili (partite multiplayer).\nL’ottimizzazione è stata realizzata tramite Google OR-Tools sfruttando tecniche di programmazione lineare e CSP (Constraint Satisfaction Problem) per individuare la soluzione di assegnazione ottimale attraverso una ricerca esaustiva guidata da una funzione obiettivo da minimizzare.\nTale funzione penalizza le assegnazioni non ideali, favorendo:\n- l'abbinamento di giocatori con livelli di abilità simili\n- la priorità ai giocatori in attesa da più tempo\n- la preferenza per utenti con basso tasso di abbandono\n- una distribuzione delle partite coerente con la disponibilità dei giocatori in attesa di essere assegnati ad una risorsa. L'approccio adottato garantisce un bilanciamento equo e un uso efficiente delle risorse di sistema.",
+                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/GORTItem.png",
+                        "company" : {
+                            "companyName" : "Progetto Universitario",
+                            "companyUrl" : ""
+                        },
+                        "professionalRoles" : "Constrained Optimization Problem (CSP) | Clustering",
+                        "platforms" : "Google OR-Tools| Python",
+                        "callToActions" : [
+                            {
+                                "callToActionText" : "Github",
+                                "callToActionUrl" : "https://github.com/RayCatcherS/KnowledgeEngineeringProject"
+                            },
+                            {
+                                "callToActionText" : "Documentazione .ipynb",
+                                "callToActionUrl" : "https://github.com/RayCatcherS/KnowledgeEngineeringProject/blob/main/NotebookSource.ipynb"
+                            }
+                        ],
+                        "itemCoverBackgroundType" : "image",
+                        "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/KEBackground.png",
+                        "backgroundCoverVideoUrl" : ""
+                    }
+                ]
+            },
+            {
                 "projectGroupName" : "Personal Projects",
-                "projectGroupDescription" : "In questa sezione vengono elencati progetti paralleli, nati da passione o sperimentazione",
+                "projectGroupDescription" : "In questa sezione vengono elencati progetti paralleli, nati da passione, jam o sperimentazione",
                 "projectItemsData" : [
                     {
                         "itemType" : "ItemType.YoutubeUrl",
@@ -88,7 +149,7 @@
                             "companyUrl" : ""
                         },
                         "professionalRoles" : "Software Enginer | Programmer | AI | Level Design | 3D Artist",
-                        "platforms" : "(Windows)",
+                        "platforms" : "Unity (Windows)",
                         "callToActions" : [
                             {
                                 "callToActionText" : "Github / Download",
@@ -111,7 +172,7 @@
                             "companyUrl" : ""
                         },
                         "professionalRoles" : "Software Enginer | Programmer | Level Design | 3D Artist",
-                        "platforms" : "(Android, Web)",
+                        "platforms" : "Unity | C# (Android, Web)",
                         "callToActions" : [
                             {
                                 "callToActionText" : "Itch.io",
@@ -134,7 +195,7 @@
                             "companyUrl" : ""
                         },
                         "professionalRoles": "Boss Battle | Character Controller | Game Design",
-                        "platforms": "(Android)",
+                        "platforms": "Unity | C# (Android)",
                         "callToActions" : [
                             {
                                 "callToActionText" : "GGJ Page",
@@ -157,7 +218,7 @@
                             "companyUrl" : ""
                         },
                         "professionalRoles": "Game Effects | Game Programming | Game Design",
-                        "platforms": "(Windows)",
+                        "platforms": "Unity (Windows)",
                         "callToActions" : [
                             {
                                 "callToActionText" : "GGJ Page",
@@ -180,11 +241,10 @@
                             "companyUrl" : ""
                         },
                         "professionalRoles": "Programmer | Game Design | Level Design | 3D Artist",
-                        "platforms": "(iOS | Android)",
+                        "platforms": "Unity (iOS | Android)",
                         "callToActions" : [
                             {
-                                "callToActionText" : "Try It",
-                                "callToActionUrl" : "https://celebrateit.it/sciFire/"
+                                
                             }
                         ],
                         "itemCoverBackgroundType" : "video",
@@ -194,37 +254,8 @@
                 ]
             },
             {
-                "projectGroupName" : "AI & Machine Learning",
-                "projectGroupDescription" : "A sample of the personal game projects that I've worked",
-                "projectItemsData" : [
-                    {
-                        "itemType" : "ItemType.UrlImage",
-                        "mediaPreviewUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/homogeneous_classes_1.png",
-                        "mediaItemSource" : "",
-                        "title" : "Problema di ottimizzazione vincolata",
-                        "description" : "In questo progetto ho simulato il problema di un servizio online con l'obiettivo di ottimizzare l'assegnazione degli utenti alle risorse disponibili (partite multiplayer).\nL’ottimizzazione è stata realizzata tramite Google OR-Toolssfruttando tecniche di programmazione lineare e CSP (Constraint Satisfaction Problem) per individuare la soluzione di assegnazione ottimale attraverso una ricerca esaustiva guidata da una funzione obiettivo da minimizzare.\nTale funzione penalizza le assegnazioni non ideali, favorendo:\n- l'abbinamento di giocatori con livelli di abilità simili\n- la priorità ai giocatori in attesa da più tempo\n- la preferenza per utenti con basso tasso di abbandono\n- una distribuzione delle partite coerente con la disponibilità dei giocatori in attesa di essere assegnati ad una risorsa. L'approccio adottato garantisce un bilanciamento equo e un uso efficiente delle risorse di sistema.",
-                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/GORTItem.png",
-                        "company" : {
-                            "companyName" : "University Project",
-                            "companyUrl" : ""
-                        },
-                        "professionalRoles" : "Constrained Optimization Problem (CSP) | Clustering",
-                        "platforms" : "(Google OR-Tools| Python)",
-                        "callToActions" : [
-                            {
-                                "callToActionText" : "Github",
-                                "callToActionUrl" : "https://github.com/RayCatcherS/KnowledgeEngineeringProject"
-                            }
-                        ],
-                        "itemCoverBackgroundType" : "image",
-                        "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/AIMachineLearning/KnowledgeEngineeringProject/KEBackground.png",
-                        "backgroundCoverVideoUrl" : ""
-                    }
-                ]
-            },
-            {
                 "projectGroupName" : "Software Development",
-                "projectGroupDescription" : "A concepts of the game titles that I prototype",
+                "projectGroupDescription" : "In questa sezione vengono elencati progetti universitari e personali legati al mondo dello sviluppo software e di interfacce utente",
                 "projectItemsData" : [
                     {
                         "itemType" : "ItemType.UrlImage",
@@ -261,11 +292,11 @@
                             "companyUrl" : ""
                         },
                         "professionalRoles" : "Front-end Dev | Back-end Dev",
-                        "platforms" : "(Web)",
+                        "platforms" : "Flutter Web | Firebase",
                         "callToActions" : [
                             {
-                                "callToActionText" : "Web App",
-                                "callToActionUrl" : "https://celebrateit.it/"
+                                "callToActionText" : "Github",
+                                "callToActionUrl" : "https://github.com/RayCatcherS/celebrando"
                             }
                         ],
                         "itemCoverBackgroundType" : "image",

@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdOutlineMail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { HomeSectionProps } from '../../../types/interfaces';
 
 
@@ -46,6 +47,10 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
         <div className='flex mt-20'>
           <a href={homeCover.personalEmail} className='text-blue-400 block'>
             <MdOutlineMail  size={30} color='white'/>
+          </a>
+          <a className='ml-10'> </a>
+          <a href={homeCover.githubURL} className='text-blue-400 block'>
+            <FaGithub   size={30} color='white'/>
           </a>
           <a className='ml-10'> </a>
           <a href={homeCover.linkedinURL} className='text-blue-400 block'>

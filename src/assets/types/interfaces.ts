@@ -49,6 +49,7 @@ export interface HomeCover {
   coverImageUrl: string;
   personalEmail: string;
   linkedinURL: string;
+  githubURL: string;
   coverDescription1: string;
   coverDescription2: string;
 }

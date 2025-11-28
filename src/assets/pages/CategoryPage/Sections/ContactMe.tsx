@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdOutlineMail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { ContactMeProps } from '../../../types/interfaces';
 
 
@@ -28,6 +29,10 @@ const ContactMe: React.FC<{ contactMeProps: ContactMeProps, personalEmail: strin
               <div className='flex mt-15'>
                 <a href={personalEmail} className='text-blue-400 block'>
                     <MdOutlineMail  size={30} color='white'/>
+                </a>
+                <a className='ml-10'> </a>
+                <a href={personalEmail} className='text-blue-400 block'>
+                    <FaGithub  size={30} color='white'/>
                 </a>
                 <a className='ml-10'> </a>
                 <a href={linkedinURL} className='text-blue-400 block'>
