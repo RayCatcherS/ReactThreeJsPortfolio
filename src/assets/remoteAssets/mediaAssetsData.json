@@ -7,8 +7,8 @@
             "personalEmail" : "mailto:romanelli1996@gmail.com",
             "linkedinURL" : "https://www.linkedin.com/in/stefano-romanelli-bb80a6108",
             "githubURL" : "https://github.com/RayCatcherS",
-            "coverDescription1" : "Ciao! Mi chiamo Stefano, sono laureato in Informatica e appassionato di sviluppo di videogiochi, serious games e programmazione. Di recente ho iniziato ad affrontare sfide legate all'impiego intelligenza artificiale risolvendo alcuni toy problems. Nel mio tempo libero amo esplorare nuove tecnologie e sperimentare con ciò che può diventare il prossimo progetto.",
-            "coverDescription2" : "In questo portfolio sono presenti alcuni progetti professionali e personali!"
+            "coverDescription1" : "Ciao! Mi chiamo Stefano, sono laureato in Informatica e appassionato di sviluppo software, AI, tecnologia e game development. Nel mio tempo libero amo esplorare nuove tecnologie e sperimentare con ciò che può diventare il prossimo progetto.",
+            "coverDescription2" : "In questo portfolio sono presenti alcune sfide, progetti professionali e personali!"
         },
         "aboutMe" : {
             "pictureProfile" : "https://stefanoromanelli.it/remoteAssets/pictureProfile.jpg",
@@ -115,7 +115,7 @@
                             "companyName" : "Progetto Universitario",
                             "companyUrl" : ""
                         },
-                        "professionalRoles" : "Constrained Optimization Problem (CSP) | Clustering",
+                        "professionalRoles" : "Constrained Optimization Problem (CSP) | Clustering | Google OR-Tools | Pandas | Scikit-learn",
                         "platforms" : "Google OR-Tools| Python",
                         "callToActions" : [
                             {
