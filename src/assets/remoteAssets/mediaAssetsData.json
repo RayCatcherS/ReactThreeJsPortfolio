@@ -134,6 +134,58 @@
                 ]
             },
             {
+                "projectGroupName" : "Software Development",
+                "projectGroupDescription" : "In questa sezione vengono elencati progetti universitari e personali legati al mondo dello sviluppo software e di interfacce utente",
+                "projectItemsData" : [
+                    {
+                        "itemType": "ItemType.YoutubeUrl",
+                        "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrateVideoPreview.jpg",
+                        "mediaItemSource": "https://www.youtube.com/embed/oSb0LKCYWYc?si=puHi5fKMfZQ9Tzvk",
+                        "title" : "Celebrate",
+                        "description" : "Celebrate.it è una piattaforma online che permette agli utenti di ricercare e prenotare locali per eventi. Il sistema integra strumenti per la gestione e l’organizzazione degli eventi, con interfaccia frontend sviluppata in Flutter Web e backend basato su Firebase.",
+                        "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrate_logo.png",
+                        "company" : {
+                            "companyName" : "Personal Team Project",
+                            "companyUrl" : ""
+                        },
+                        "professionalRoles" : "Front-end Dev | Back-end Dev",
+                        "platforms" : "Flutter Web | Firebase",
+                        "callToActions" : [
+                            {
+                                "callToActionText" : "Github",
+                                "callToActionUrl" : "https://github.com/RayCatcherS/celebrando"
+                            }
+                        ],
+                        "itemCoverBackgroundType" : "image",
+                        "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrateCover.jpg",
+                        "backgroundCoverVideoUrl" : ""
+                    },
+                    {
+                        "itemType" : "ItemType.UrlImage",
+                        "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/muovoLogo.png",
+                        "mediaItemSource": "https://www.youtube.com/watch?v=kvMvK_FZabo&ab_channel=LuciaPatrono",
+                        "title": "Muovo",
+                        "description": "Prototipo finale della user interface per il progetto di esame Interazione Uomo Macchina realizzata usando un approccio Human-Centered Design, applicando linee guida e principi studiati durante il corso dell'esame, in modo da rendere l'interazione con il sistema più immediata possibile.\nL'idea progettuale per questo caso di studio è un’applicazione di cash back per incentivare i cittadini a riciclare i rifiuti. L’utente otterrà e accumulerà punti riciclando i rifiuti presso gli appositi centri, per poi usare questi punti accumulati per riscattare premi.",
+                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/figmaAssetsScreens.png",
+                        "company" : {
+                            "companyName" : "University Project",
+                            "companyUrl" : ""
+                        },
+                        "professionalRoles": "User Interface Design | User Centered Design",
+                        "platforms": "(Figma)",
+                        "callToActions" : [
+                            {
+                                "callToActionText" : "Try Figma Demo",
+                                "callToActionUrl" : "https://www.figma.com/proto/lkGJBYXgwYSFmFQbZrc7w9/Prototipo-Interattivo-Finale---Alta-fedelt%C3%A0?node-id=19%3A425&starting-point-node-id=19%3A425"
+                            }
+                        ],
+                        "itemCoverBackgroundType" : "image",
+                        "backgroundCoverImageUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/figmasheet.jpg",
+                        "backgroundCoverVideoUrl" : ""
+                    }
+                ]
+            },
+            {
                 "projectGroupName" : "Personal Projects",
                 "projectGroupDescription" : "In questa sezione vengono elencati progetti paralleli, nati da passione, jam o sperimentazione",
                 "projectItemsData" : [
@@ -250,58 +302,6 @@
                         "itemCoverBackgroundType" : "video",
                         "backgroundCoverImageUrl": "",
                         "backgroundCoverVideoUrl" : "https://stefanoromanelli.it/remoteAssets/personalProjectImages/SciFire/SciFireCoverVideo.mp4"
-                    }
-                ]
-            },
-            {
-                "projectGroupName" : "Software Development",
-                "projectGroupDescription" : "In questa sezione vengono elencati progetti universitari e personali legati al mondo dello sviluppo software e di interfacce utente",
-                "projectItemsData" : [
-                    {
-                        "itemType" : "ItemType.UrlImage",
-                        "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/muovoLogo.png",
-                        "mediaItemSource": "https://www.youtube.com/watch?v=kvMvK_FZabo&ab_channel=LuciaPatrono",
-                        "title": "Muovo",
-                        "description": "Prototipo finale della user interface per il progetto di esame Interazione Uomo Macchina realizzata usando un approccio Human-Centered Design, applicando linee guida e principi studiati durante il corso dell'esame, in modo da rendere l'interazione con il sistema più immediata possibile.\nL'idea progettuale per questo caso di studio è un’applicazione di cash back per incentivare i cittadini a riciclare i rifiuti. L’utente otterrà e accumulerà punti riciclando i rifiuti presso gli appositi centri, per poi usare questi punti accumulati per riscattare premi.",
-                        "gameAssetImageUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/figmaAssetsScreens.png",
-                        "company" : {
-                            "companyName" : "University Project",
-                            "companyUrl" : ""
-                        },
-                        "professionalRoles": "User Interface Design | User Centered Design",
-                        "platforms": "(Figma)",
-                        "callToActions" : [
-                            {
-                                "callToActionText" : "Try Figma Demo",
-                                "callToActionUrl" : "https://www.figma.com/proto/lkGJBYXgwYSFmFQbZrc7w9/Prototipo-Interattivo-Finale---Alta-fedelt%C3%A0?node-id=19%3A425&starting-point-node-id=19%3A425"
-                            }
-                        ],
-                        "itemCoverBackgroundType" : "image",
-                        "backgroundCoverImageUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/UniversityProjects/figmasheet.jpg",
-                        "backgroundCoverVideoUrl" : ""
-                    },
-                    {
-                        "itemType": "ItemType.YoutubeUrl",
-                        "mediaPreviewUrl": "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrateVideoPreview.jpg",
-                        "mediaItemSource": "https://www.youtube.com/embed/oSb0LKCYWYc?si=puHi5fKMfZQ9Tzvk",
-                        "title" : "Celebrate",
-                        "description" : "Celebrate.it è una piattaforma online che permette agli utenti di ricercare e prenotare locali per eventi. Il sistema integra strumenti per la gestione e l’organizzazione degli eventi, con interfaccia frontend sviluppata in Flutter Web e backend basato su Firebase.",
-                        "gameAssetImageUrl" : "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrate_logo.png",
-                        "company" : {
-                            "companyName" : "Personal Team Project",
-                            "companyUrl" : ""
-                        },
-                        "professionalRoles" : "Front-end Dev | Back-end Dev",
-                        "platforms" : "Flutter Web | Firebase",
-                        "callToActions" : [
-                            {
-                                "callToActionText" : "Github",
-                                "callToActionUrl" : "https://github.com/RayCatcherS/celebrando"
-                            }
-                        ],
-                        "itemCoverBackgroundType" : "image",
-                        "backgroundCoverImageUrl" : "https://stefanoromanelli.it/remoteAssets/otherProjects/Celebrate/celebrateCover.jpg",
-                        "backgroundCoverVideoUrl" : ""
                     }
                 ]
             }
