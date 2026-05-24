@@ -17,13 +17,13 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
       <nav className="flex text-lg gap-7 font-medium p-10">
 
 
-        <ul className="flex items-center w-full justify-between gap-4">
-          <li>
+        <ul className="flex items-stretch w-full justify-between gap-4">
+          <li className="flex">
             <Link
               to="home"
               smooth={true}
               duration={500}
-              className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${activeSection === 'home' ? 'bg-white' : 'bg-white/10'
+              className={`h-full cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${activeSection === 'home' ? 'bg-white' : 'bg-white/10'
                 }`}>
               <p className={`p-3 ${activeSection === 'home' ? 'violet-gradient-text' : 'text-white'
                 }`}>Home</p>
@@ -33,20 +33,20 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
           {/** generazione menu navbar */}
 
 
-          <div className="flex space-x-5">
+          <div className="flex space-x-5 items-stretch">
             {projectGroups.map((projectGroup, index) => {
               const isActive = activeSection === `section-${index}`;
               return (
-                <li key={index} id={index.toString()}>
+                <li key={index} id={index.toString()} className="flex">
                   <Link
                     to={`section-${index}`}
                     smooth={true}
                     duration={500}
-                    className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${isActive ? 'bg-white' : 'bg-white/10'
+                    className={`h-full cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${isActive ? 'bg-white' : 'bg-white/10'
                       }`}
                   >
                     <p
-                      className={`p-3 ${isActive ? 'violet-gradient-text' : 'text-white'
+                      className={`p-3 text-center ${isActive ? 'violet-gradient-text' : 'text-white'
                         }`}
                     >
                       {projectGroup.projectGroupName}
@@ -55,17 +55,17 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
                 </li>
               );
             })}
-            <li>
+            <li className="flex">
               {/** About/Contact Me link */}
               <Link
                 to="about"
                 smooth={true}
                 duration={500}
-                className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${activeSection === 'about' ? 'bg-white' : 'bg-white/10'
+                className={`h-full cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${activeSection === 'about' ? 'bg-white' : 'bg-white/10'
                   }`}
               >
                 <p
-                  className={`p-3 ${activeSection === 'about'
+                  className={`p-3 text-center ${activeSection === 'about'
                     ? 'violet-gradient-text'
                     : 'text-white'
                     }`}

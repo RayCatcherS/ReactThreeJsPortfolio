@@ -101,3 +101,18 @@ html {
   font-family: 'melodiExtraLight', sans-serif;
 }
 
+/* Custom Scrollbar per un look più pulito */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #4c1d95; /* Tailwind violet-900 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9; /* Tailwind violet-700 */
+}
+

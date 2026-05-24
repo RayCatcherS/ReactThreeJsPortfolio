@@ -35,7 +35,7 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
         sm:p-10
         md:p-10
         lg:p-10
-        w-220`}>
+        w-220 drop-shadow-lg`}>
         
         <h1 className='text-white text-title font-melodi-semi-bold-title uppercase'>
           {portfolioOwner}
