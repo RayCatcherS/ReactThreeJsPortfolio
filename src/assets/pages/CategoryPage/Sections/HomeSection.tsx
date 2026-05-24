@@ -12,24 +12,25 @@ const HomeSection: React.FC<HomeSectionProps> = ({ portfolioOwner, role, homeCov
     // h-screen altezza dello schermo
 
     <div
-      className={`bg-violet-950 
+      className={`relative bg-violet-950 
         h-screen sm:h-screen md:h-182 lg:h-182
-        flex items-center justify-center`}
-      style={{
-        backgroundImage: `url(${homeCover.coverImageUrl})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
+        flex items-center justify-center overflow-hidden`}
     >
+      <img 
+        src={homeCover.coverImageUrl} 
+        fetchpriority="high"
+        alt="Home Cover"
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      />
       {/* opacità viola */}
       <div className={`absolute inset-0 bg-violet-950 opacity-65 
-        h-screen sm:h-screen md:h-182 lg:h-182`}></div>
+        h-screen sm:h-screen md:h-182 lg:h-182 z-10`}></div>
       
       {/* stile 2 */}
       {/* <div className={`absolute inset-0  
-        h-screen sm:h-screen md:h-182 lg:h-182`} style={{backgroundColor: `rgb(18, 7, 31)`}}></div>*/ }
+        h-screen sm:h-screen md:h-182 lg:h-182 z-10`} style={{backgroundColor: `rgb(18, 7, 31)`}}></div>*/ }
 
-      <div className={`relative text-left flex flex-col items-center
+      <div className={`relative z-20 text-left flex flex-col items-center
         p-10
         sm:p-10
         md:p-10

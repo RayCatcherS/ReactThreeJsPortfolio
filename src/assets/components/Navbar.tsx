@@ -9,32 +9,30 @@ import { ProjectGroup } from '../types/interfaces';
 */
 
 const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }> = ({ projectGroups, activeSection }) => {
-  
+
   //console.log(`Navbar ha ricevuto activeSection: ${activeSection}`);
 
   return (
     <header className="header fixed top-0 left-0 w-full z-50 ">
       <nav className="flex text-lg gap-7 font-medium p-10">
 
-        
-        <ul className="flex items-center w-full justify-between">
+
+        <ul className="flex items-center w-full justify-between gap-4">
           <li>
             <Link
               to="home"
               smooth={true}
               duration={500}
-              className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${
-              activeSection === 'home' ? 'bg-white' : 'bg-white/10'
-            }`}>
-              <p className={`p-3 ${
-                activeSection === 'home' ? 'violet-gradient-text' : 'text-white'
-              }`}>Home</p>
+              className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${activeSection === 'home' ? 'bg-white' : 'bg-white/10'
+                }`}>
+              <p className={`p-3 ${activeSection === 'home' ? 'violet-gradient-text' : 'text-white'
+                }`}>Home</p>
             </Link>
           </li>
 
           {/** generazione menu navbar */}
-          
-          
+
+
           <div className="flex space-x-5">
             {projectGroups.map((projectGroup, index) => {
               const isActive = activeSection === `section-${index}`;
@@ -44,14 +42,12 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
                     to={`section-${index}`}
                     smooth={true}
                     duration={500}
-                    className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${
-                    isActive ? 'bg-white' : 'bg-white/10'
-                    }`}
+                    className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${isActive ? 'bg-white' : 'bg-white/10'
+                      }`}
                   >
                     <p
-                      className={`p-3 ${
-                        isActive ? 'violet-gradient-text' : 'text-white'
-                      }`}
+                      className={`p-3 ${isActive ? 'violet-gradient-text' : 'text-white'
+                        }`}
                     >
                       {projectGroup.projectGroupName}
                     </p>
@@ -65,16 +61,14 @@ const Navbar: React.FC<{ projectGroups: ProjectGroup[], activeSection: string }>
                 to="about"
                 smooth={true}
                 duration={500}
-                className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${
-                activeSection === 'about' ? 'bg-white' : 'bg-white/10'
-                }`}
+                className={`cursor-pointer rounded-lg flex items-center justify-center font-bold text-lg shadow-sm transition-all backdrop-blur-md ${activeSection === 'about' ? 'bg-white' : 'bg-white/10'
+                  }`}
               >
                 <p
-                  className={`p-3 ${
-                    activeSection === 'about'
-                      ? 'violet-gradient-text'
-                      : 'text-white'
-                  }`}
+                  className={`p-3 ${activeSection === 'about'
+                    ? 'violet-gradient-text'
+                    : 'text-white'
+                    }`}
                 >
                   About/Contact Me
                 </p>

@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import { ProjectItem } from '../../../../../types/interfaces'
-
+import { useIntersectionObserver } from '../../../../../hooks/useIntersectionObserver'
 
 const SubSubSectionDescription: React.FC<{ projectItem: ProjectItem }> = ({ projectItem }) => {
+  const { targetRef, isIntersecting } = useIntersectionObserver();
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+        if (isIntersecting) {
+            videoRef.current.play().catch(e => console.log("Autoplay prevented", e));
+        } else {
+            videoRef.current.pause();
+        }
+    }
+  }, [isIntersecting]);
+
   return (
     <div
+        ref={targetRef as any}
         className='relative pt-26 pb-26
         md:pl-30 md:pr-30 
         sm:pl-10 sm:pr-10
@@ -31,14 +45,13 @@ const SubSubSectionDescription: React.FC<{ projectItem: ProjectItem }> = ({ proj
                 <div className='flex-100 relative order-1 md:order-3 flex justify-center items-center' style={{ overflow: 'hidden' }}>
                     <div style={{ position: 'relative', width: '100%', paddingTop: '56.25%' }}>
                         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
-                            <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center"
-                                style={{
-                                    borderRadius: '9px',
-                                    backgroundImage: `url(${projectItem.gameAssetImageUrl})`,
-                                    backgroundPosition: 'center',
-                                    backgroundSize: 'contain',
-                                    backgroundRepeat: 'no-repeat'
-                                }}>
+                            <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+                                <img 
+                                    src={projectItem.gameAssetImageUrl} 
+                                    loading="lazy" 
+                                    alt="Game Asset"
+                                    className="w-full h-full object-contain rounded-[9px]"
+                                />
                             </div>
                         </div>
                     </div>
@@ -47,7 +60,7 @@ const SubSubSectionDescription: React.FC<{ projectItem: ProjectItem }> = ({ proj
         </div>
         {projectItem.itemCoverBackgroundType === 'video' ? (
             <video
-                autoPlay
+                ref={videoRef}
                 loop
                 muted
                 playsInline
@@ -68,15 +81,12 @@ const SubSubSectionDescription: React.FC<{ projectItem: ProjectItem }> = ({ proj
                 <source src={projectItem.backgroundCoverVideoUrl} type="video/mp4" />
             </video>
         ) : (
-            <div
-                className='absolute inset-0'
-                style={{
-                    backgroundImage: `url(${projectItem.backgroundCoverImageUrl})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    zIndex: 0,
-                }}
-            ></div>
+            <img 
+                src={projectItem.backgroundCoverImageUrl} 
+                loading="lazy"
+                alt=""
+                className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none select-none"
+            />
         )}
     </div>
   )

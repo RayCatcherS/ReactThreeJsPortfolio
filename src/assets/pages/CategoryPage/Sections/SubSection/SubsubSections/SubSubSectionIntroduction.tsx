@@ -1,13 +1,28 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import ButtonCallToAction from '../../../../../components/ButtonCallToAction'
 import { ProjectItem, ItemType } from '../../../../../types/interfaces'
 import ImageMediaItem from '../MediaItemType/ImageMediaItem'
 import YoutubeMediaItem from '../MediaItemType/YoutubeMediaItem'
 import VideoMediaItem from '../MediaItemType/VideoMediaItem'
+import { useIntersectionObserver } from '../../../../../hooks/useIntersectionObserver'
 
 const SubSubSectionIntroduction: React.FC<{ projectItem: ProjectItem }> = ({ projectItem }) => {
+  const { targetRef, isIntersecting } = useIntersectionObserver();
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+        if (isIntersecting) {
+            videoRef.current.play().catch(e => console.log("Autoplay prevented", e));
+        } else {
+            videoRef.current.pause();
+        }
+    }
+  }, [isIntersecting]);
+
   return (
     <div
+        ref={targetRef as any}
         className='relative pt-26 pb-26
         md:pl-30 md:pr-30 
         sm:pl-10 sm:pr-10
@@ -61,7 +76,7 @@ const SubSubSectionIntroduction: React.FC<{ projectItem: ProjectItem }> = ({ pro
         </div>
         {projectItem.itemCoverBackgroundType === 'video' ? (
             <video
-                autoPlay
+                ref={videoRef}
                 loop
                 muted
                 playsInline
@@ -79,18 +94,16 @@ const SubSubSectionIntroduction: React.FC<{ projectItem: ProjectItem }> = ({ pro
                     userSelect: 'none', // Previene selezioni indesiderate
                 }}
             >
+                {/* Carica il video solo se è entrato nello schermo almeno una volta (opzionale), ma con IntersectionObserver pausiamo/playiamo */}
                 <source src={projectItem.backgroundCoverVideoUrl} type="video/mp4" />
             </video>
         ) : (
-            <div
-                className='absolute inset-0'
-                style={{
-                    backgroundImage: `url(${projectItem.backgroundCoverImageUrl})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    zIndex: 0,
-                }}
-            ></div>
+            <img 
+                src={projectItem.backgroundCoverImageUrl} 
+                loading="lazy"
+                alt=""
+                className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none select-none"
+            />
         )}
     </div>
   )
