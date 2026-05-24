@@ -64,7 +64,7 @@ const activeSection = useScrollSpy(sectionIds);
             pictureProfile={mediaAssetData.aboutMe.pictureProfile}
           />
         </section>
-        <section id="about">
+        <section id="contact">
             <ContactMe contactMeProps={mediaAssetData.contactMe}
                       
             linkedinURL={mediaAssetData.homeCover.linkedinURL}
