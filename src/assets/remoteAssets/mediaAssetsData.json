@@ -23,7 +23,7 @@
         "projectGroups" : [
             {
                 "projectGroupName" : "Professional Projects",
-                "projectGroupDescription" : "In questa sezione vengono elencati lavori ufficiali, contrattualizzati e realizzati in contesto professionale",
+                "projectGroupDescription" : "In questa sezione vengono elencati lavori realizzati in contesto professionale",
                 "projectItemsData" : [
                     {
                         "itemType": "ItemType.UrlVideo",
